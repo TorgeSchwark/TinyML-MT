@@ -1,0 +1,3 @@
+Fruits 360 Dataset
+https://www.kaggle.com/datasets/moltean/fruits
+https://universe.roboflow.com/vegetables/vegetables-el4g6
