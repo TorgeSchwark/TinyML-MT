@@ -1,4 +1,6 @@
 Dataset/
+datasets/
 api_key.txt
 Vegetables-1/
 venv/
+*.DS_Store
