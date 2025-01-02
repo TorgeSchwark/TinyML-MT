@@ -1,54 +1,88 @@
 import time
 import os
-from picamera2 import Picamera2, Preview
+import ast
+from picamera2 import Picamera2
+import RPi.GPIO as GPIO
 
 # Initialize and configure the camera
 picam = Picamera2()
-
-# Create a still configuration with high resolution
-config = picam.create_preview_configuration()
-# Set shutter speed (example: 10000 microseconds or 10ms)
-# picam.set_controls({"ExposureTime": 4000})  # Exposure time in microseconds (10ms)
-
+config = picam.create_video_configuration({"size": (800, 600)})
 picam.configure(config)
+
+# Setup GPIO for button press
+BUTTON_GPIO = 18
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(BUTTON_GPIO, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 
 # Target directory for storing images
 data_to_path = "./Dataset"
+id_file_path = os.path.join(data_to_path, "info/id.txt")
+prices_file_path = os.path.join(data_to_path, "info/prices.txt")
 if not os.path.exists(data_to_path):
     os.makedirs(data_to_path)
+
+# Initialize or read the current image ID
+if not os.path.exists(id_file_path):
+    with open(id_file_path, "w") as f:
+        f.write("0")  # Start with ID 0
+
+with open(id_file_path, "r") as f:
+    current_id = int(f.read().strip())
+
+# Load prices from prices.txt
+if not os.path.exists(prices_file_path):
+    print(f"Error: {prices_file_path} not found.")
+    exit(1)
+
+with open(prices_file_path, "r") as f:
+    prices = ast.literal_eval(f.read().strip())
 
 # Ask for the number of entries and images per object
 num_entries = int(input("How many samples should be added? "))
 num_images_per_entry = int(input("How many images per object? "))
 
-# Start the camera preview
-
 # Valid object IDs and response keywords
-valid_ids = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+valid_ids = list(prices.keys())
 negative = ["n", "N", "break", "Break", "exit", "stop", "return"]
 positive = ["y", "Y", "continue"]
 
+# Function to capture images
+def capture_images(objects_id_list, total_price, num_images):
+    global current_id
+    picam.start()
+    print("Waiting for button press to capture image...")
+    GPIO.wait_for_edge(BUTTON_GPIO, GPIO.FALLING)
+    for j in range(num_images):
+        time.sleep(0.4)
+
+        # Save image with the current ID
+        file_path = os.path.join(data_to_path, f"image_{current_id}.jpg")
+        picam.capture_file(file_path)
+        print(f"Image saved: {file_path}")
+
+        # Save object ID list and total price for the current image
+        metadata_file_path = os.path.join(data_to_path, f"image_{current_id}.txt")
+        with open(metadata_file_path, "w") as metadata_file:
+            metadata_file.write(f"Objects: {objects_id_list}\n")
+            metadata_file.write(f"Total Price: {total_price}\n")
+
+        # Increment the ID and update id.txt
+        current_id += 1
+        with open(id_file_path, "w") as f:
+            f.write(str(current_id))
+
+    picam.stop()
+
 # Loop for capturing images
 for i in range(num_entries):
-    continue_accept = input("Do you want to continue? (y/n): ").lower()
-    if continue_accept == "n":
-        break
-
     ids = True
-    objects_id_list = []
-    id_answer = ""
+    objects_id_list = {}
 
     while ids:
         id_answer = input("Enter object IDs for the image (y to finish, n to clear IDs and start over): ")
-
-        if id_answer.isdigit() and int(id_answer) in valid_ids:
-            objects_id_list.append(int(id_answer))
-        elif id_answer in negative:
-            objects_id_list = []
-            print("IDs have been cleared. Start entering again:")
-        elif id_answer in positive:
+        if id_answer in positive:
             print("The IDs will be recorded for the following images.")
-            print("Selected object IDs:", ", ".join(map(str, objects_id_list)))
+            print("Selected object IDs:", objects_id_list)
 
             confirm = input("Confirm selection (y/n): ").lower()
             if confirm in positive:
@@ -56,21 +90,24 @@ for i in range(num_entries):
                 break
             else:
                 print("Starting new selection...")
-                objects_id_list = []
+                objects_id_list = {}
+        elif id_answer in negative:
+            objects_id_list = {}
+            print("IDs have been cleared. Start entering again:")
+        elif id_answer.isdigit() and int(id_answer) in valid_ids:
+            amount_answer = input("How many of these?: ")
+            if amount_answer.isdigit():
+                objects_id_list[int(id_answer)] = int(amount_answer)
+            else:
+                print("Invalid amount. Please try again.")
         else:
             print("Invalid response. Please try again.")
 
-    # Start the camera for capturing images
-    picam.start()
-    for j in range(num_images_per_entry):
-        time.sleep(1)
-        file_path = os.path.join(data_to_path, f"sample-{i}_image-{j}.jpg")
-        picam.capture_file(file_path)
-        print(f"Image {j + 1} for sample {i + 1} saved: {file_path}")
+    # Calculate total price for the objects
+    total_price = sum(prices[obj_id][1] * count for obj_id, count in objects_id_list.items())
 
-    picam.stop()  # Stop the camera after capturing all images for the current entry
+    # Capture images
+    capture_images(objects_id_list, total_price, num_images_per_entry)
 
-# Stop the camera preview and close
-picam.stop_preview()
-picam.close()
 print("Program finished.")
+GPIO.cleanup()

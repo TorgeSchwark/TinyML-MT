@@ -1,0 +1,2 @@
+Objects: {1: 2}
+Total Price: 1.2
