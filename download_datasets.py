@@ -9,9 +9,9 @@ print("Path to dataset files:", path)
 
 # Den API-Key aus der Datei lesen
 with open("api_key.txt", "r") as file:
-    api_key = file.read().strip()  # Entfernt Leerzeichen und Zeilenumbrüche
+    api_key = file.read().strip()  
 
-# Roboflow mit dem gelesenen API-Key verwenden
+# Use roboflow with the API key
 rf = Roboflow(api_key=api_key)
 project = rf.workspace("vegetables").project("vegetables-el4g6")
 version = project.version(1)

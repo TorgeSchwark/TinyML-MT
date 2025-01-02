@@ -13,6 +13,6 @@ def transform_dataset_kaggle():
             if entry == "Test" or entry == "Validation" or entry == "Training":
                 subfolder_to = entry
             if subfolder_to != "":
-                pass
+                
 
 
