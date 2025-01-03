@@ -5,3 +5,4 @@ venv/
 *.yaml
 lightning_logs
 TinyML-proj
+MIT-Dataset
