@@ -1,1 +1,0 @@
-{1: ["Apple", 0.6], 2: ["Citrone", 0.49], 3: ["avocado", 1.29], 4: ["Bannane", 0.46], 5: ["Tomaten soße", 1.19], 6: ["Schwepps", 2.19]} 

@@ -6,3 +6,5 @@ venv/
 lightning_logs
 TinyML-proj
 MIT-Dataset
+datasets/
+yolo/

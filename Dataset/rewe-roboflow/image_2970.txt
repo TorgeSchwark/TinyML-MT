@@ -1,0 +1,2 @@
+Objects: {21: 2, 22: 2, 38: 3}
+Total Price: 11.33
