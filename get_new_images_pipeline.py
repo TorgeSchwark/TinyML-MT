@@ -18,6 +18,9 @@ GPIO.setup(BUTTON_GPIO, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 data_to_path = "./Dataset"
 id_file_path = os.path.join(data_to_path, "info/id.txt")
 prices_file_path = os.path.join(data_to_path, "info/prices.txt")
+subfder = "test"
+data_to_path = os.path.join(data_to_path, subfder)
+print(data_to_path)
 if not os.path.exists(data_to_path):
     os.makedirs(data_to_path)
 
@@ -53,7 +56,7 @@ def capture_images(objects_id_list, total_price, num_images):
     print("Waiting for button press to capture image...")
     GPIO.wait_for_edge(BUTTON_GPIO, GPIO.FALLING)
     for j in range(num_images):
-        time.sleep(0.4)
+        time.sleep(1)
 
         # Save image with the current ID
         file_path = os.path.join(data_to_path, f"image_{current_id}.jpg")
