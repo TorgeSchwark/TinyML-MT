@@ -1,0 +1,2 @@
+Objects: {8: 2, 11: 2}
+Total Price: 7.16

@@ -5,3 +5,5 @@ venv/
 *.yaml
 lightning_logs
 TinyML-proj
+datasets/
+yolo/

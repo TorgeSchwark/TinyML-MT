@@ -8,3 +8,6 @@ https://universe.roboflow.com/elijah-samson/supermarket-ipojs
 
 
 https://github.com/marcusklasson/GroceryStoreDataset/tree/master/dataset/test/Packages/Milk/Arla-Medium-Fat-Milk
+
+Rewe:
+https://universe.roboflow.com/getze-mznzo/ratzz

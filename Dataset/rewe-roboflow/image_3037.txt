@@ -1,0 +1,2 @@
+Objects: {24: 3, 10: 1, 28: 1}
+Total Price: 14.45
