@@ -1,103 +1,134 @@
 import os
 import numpy as np
-import tensorflow as tf
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense
-from tensorflow.keras.utils import to_categorical
-from sklearn.model_selection import train_test_split
-import matplotlib.pyplot as plt
+import torch
+from torch.utils.data import Dataset, DataLoader, random_split
+import pytorch_lightning as pl
+from pytorch_lightning import Trainer
+from torch import nn
+from torch.optim import Adam
+from torchvision.transforms import Compose, Resize, ToTensor
 from PIL import Image
-import re
+import matplotlib.pyplot as plt
 
-# Pfad zum Dataset
+print("CUDA verfügbar:", torch.cuda.is_available())
+print("CUDA-Version:", torch.version.cuda)
+print("GPU-Name:", torch.cuda.get_device_name(0) if torch.cuda.is_available() else "Keine GPU gefunden")
+
+# Dataset Path
 DATASET_PATH = "./Dataset"
-IMAGE_SIZE = (800, 600)
+IMAGE_SIZE = (40, 40)
 
-# Funktion, um Bilder und Labels zu laden
-def load_data(dataset_path):
-    images = []
-    labels = []
+# Custom Dataset
+def load_image_label(file_name, dataset_path):
+    """Helper function to load image and label from a given file."""
+    # Load Image
+    image_path = os.path.join(dataset_path, file_name)
+    image = Image.open(image_path).resize(IMAGE_SIZE)
+    image = np.array(image) / 255.0  # Normalize
 
-    for file_name in os.listdir(dataset_path):
-        file_path = os.path.join(dataset_path, file_name)
+    # Load Label
+    txt_file = file_name.replace(".jpg", ".txt")
+    txt_path = os.path.join(dataset_path, txt_file)
+    label = None
+    if os.path.exists(txt_path):
+        with open(txt_path, "r") as f:
+            lines = f.readlines()
+            if len(lines) >= 2:
+                try:
+                    label = float(lines[1].split()[-1])
+                except ValueError:
+                    print(f"Fehler beim Lesen des Preises in Datei: {txt_path}")
+    if label is None:
+        raise ValueError(f"Label konnte nicht geladen werden: {txt_file}")
+    return image, label
 
-        if file_name.endswith(".jpg"):
-            # Bild verarbeiten
-            image = Image.open(file_path).resize(IMAGE_SIZE)
-            images.append(np.array(image) / 255.0)  # Normalisieren auf [0, 1]
+class ImagePriceDataset(Dataset):
+    def __init__(self, dataset_path, transform=None):
+        self.dataset_path = dataset_path
+        self.files = [f for f in os.listdir(dataset_path) if f.endswith(".jpg")]
+        self.transform = transform
 
-            # Label aus der zugehörigen Textdatei extrahieren
-            txt_file = file_name.replace(".jpg", ".txt")
-            txt_path = os.path.join(dataset_path, txt_file)
-            if os.path.exists(txt_path):
-                with open(txt_path, "r") as f:
-                    lines = f.readlines()
-                    if len(lines) >= 2:  # Sicherstellen, dass mindestens zwei Zeilen vorhanden sind
-                        try:
-                            # Preis aus der zweiten Zeile extrahieren
-                            price = float(lines[1].split()[-1])  # Letztes Element der zweiten Zeile
-                            labels.append(price)
-                        except ValueError:
-                            print(f"Fehler beim Lesen des Preises in Datei: {txt_file}")
-                    else:
-                        print("nolines")
-            else:
-                print("no file named: ", txt_path)
-    print(labels)
-    return np.array(images), np.array(labels)
+    def __len__(self):
+        return len(self.files)
 
+    def __getitem__(self, idx):
+        file_name = self.files[idx]
+        image, label = load_image_label(file_name, self.dataset_path)
 
-# Daten laden
-images, labels = load_data(DATASET_PATH)
+        if self.transform:
+            image = self.transform(image)
 
-# Labels normalisieren (z. B. Min-Max-Scaling)
+        return image, torch.tensor(label, dtype=torch.float32)
 
-# Daten in Trainings- und Testdatensatz aufteilen
-X_train, X_test, y_train, y_test = train_test_split(images, labels, test_size=0.2, random_state=42)
-
-# Modell aufbauen
-model = Sequential([
-    Conv2D(32, (3, 3), activation='relu', input_shape=(IMAGE_SIZE[1], IMAGE_SIZE[0], 3)),
-    MaxPooling2D((3, 3)),
-    Conv2D(32, (3, 3), activation='relu'),
-    MaxPooling2D((3, 3)),
-    Conv2D(32, (3, 3), activation='relu'),
-    MaxPooling2D((3, 3)),
-    Conv2D(32, (3, 3), activation='relu'),
-    MaxPooling2D((2, 2)),
-    Flatten(),
-    Dense(128, activation='relu'),
-    Dense(1, activation='linear')  # Regression für kontinuierliche Werte
+# Transforms
+transform = Compose([
+    ToTensor(),
+    Resize(IMAGE_SIZE)
 ])
 
-# Modell zusammenfassen
-print("Model Summary:")
-model.summary()
+# Dataset
+dataset = ImagePriceDataset(DATASET_PATH, transform=transform)
 
-# Modell kompilieren
-model.compile(optimizer='adam', loss='mean_squared_error', metrics=['mean_absolute_error'])
+# Train-Test Split
+train_size = int(0.8 * len(dataset))
+test_size = len(dataset) - train_size
+train_dataset, test_dataset = random_split(dataset, [train_size, test_size])
 
-# Modell trainieren
-history = model.fit(X_train, y_train, epochs=10, batch_size=32, validation_data=(X_test, y_test))
+# DataLoader
+batch_size = 32
+train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
+test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
 
-# Ergebnisse auswerten
-loss, mae = model.evaluate(X_test, y_test)
-print(f"Test Loss: {loss}, Test MAE: {mae}")
+# Lightning Module
+class RegressionModel(pl.LightningModule):
+    def __init__(self):
+        super().__init__()
+        self.model = nn.Sequential(
+            nn.Conv2d(3, 32, kernel_size=3),
+            nn.MaxPool2d(kernel_size=3),
+            nn.Conv2d(32, 32, kernel_size=3),
+            nn.MaxPool2d(kernel_size=3),
+            nn.Conv2d(32, 32, kernel_size=3),
+            nn.MaxPool2d(kernel_size=3),
+            nn.Conv2d(32, 32, kernel_size=3),
+            nn.MaxPool2d(kernel_size=2),
+            nn.Flatten(),
+            nn.Linear(32 * 1 * 1, 128),  # Anpassung je nach Bildgröße
+            nn.ReLU(),
+            nn.Linear(128, 1)  # Regression Output
+        )
+        self.loss_fn = nn.MSELoss()
 
-# 20 zufällige Bilder auswählen und Vorhersagen anzeigen
-num_predictions = 20
-indices = np.random.choice(len(X_test), num_predictions, replace=False)
-selected_images = X_test[indices]
-selected_labels = y_test[indices]
+    def forward(self, x):
+        return self.model(x)
 
-predictions = model.predict(selected_images)
+    def training_step(self, batch, batch_idx):
+        x, y = batch
+        y_hat = self(x)
+        loss = self.loss_fn(y_hat, y.unsqueeze(1))
+        self.log("train_loss", loss)
+        return loss
 
-print("\nPredictions (Vorhersagen) und Labels (Wahre Werte):")
-for i in range(num_predictions):
-    print(f"Bild {i+1}: Prediction = {predictions[i][0]:.2f}, Label = {selected_labels[i]:.2f}")
-    
-    # Bild anzeigen
-    plt.imshow(selected_images[i])
-    plt.title(f"Prediction: {predictions[i][0]:.2f}, Label: {selected_labels[i]:.2f}")
-    plt.axis('off')
-    plt.show()
+    def validation_step(self, batch, batch_idx):
+        x, y = batch
+        y_hat = self(x)
+        loss = self.loss_fn(y_hat, y.unsqueeze(1))
+        self.log("val_loss", loss)
+
+    def test_step(self, batch, batch_idx):
+        x, y = batch
+        y_hat = self(x)
+        loss = self.loss_fn(y_hat, y.unsqueeze(1))
+        self.log("test_loss", loss)
+
+    def configure_optimizers(self):
+        return torch.optim.Adam(self.parameters(), lr=1e-3)
+
+# Model Training
+model = RegressionModel()
+
+trainer = pl.Trainer(max_epochs=10, accelerator="gpu", devices=1 if torch.cuda.is_available() else None)
+trainer.fit(model, train_loader, test_loader)
+
+# Model Testing
+trainer.test(model, test_loader)
