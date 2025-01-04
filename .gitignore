@@ -8,3 +8,6 @@ TinyML-proj
 MIT-Dataset
 datasets/
 yolo/
+wandb/
+TinyML-CartDetection/
+checkpoints/
