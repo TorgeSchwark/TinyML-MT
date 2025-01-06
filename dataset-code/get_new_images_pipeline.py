@@ -20,6 +20,7 @@ id_file_path = os.path.join(data_to_path, "id.txt")
 prices_file_path = os.path.join(data_to_path, "prices.txt")
 subfder = "custom"
 data_to_path = os.path.join(data_to_path, subfder)
+prices = {}
 print(data_to_path)
 if not os.path.exists(data_to_path):
     os.makedirs(data_to_path)
@@ -38,7 +39,27 @@ if not os.path.exists(prices_file_path):
     exit(1)
 
 with open(prices_file_path, "r") as f:
-    prices = ast.literal_eval(f.readline().strip().split(": ", 1)[1])
+    for line in f:
+        # Extrahiere das Dictionary aus der Zeile
+        if ": " in line:
+            _, dict_str = line.strip().split(": ", 1)
+            try:
+                current_dict = ast.literal_eval(dict_str)
+                for key, value in current_dict.items():
+                    if key in prices:
+                        # Überprüfen, ob Werte übereinstimmen
+                        if prices[key] != value:
+                            print(f"Warnung: Konflikt für Schlüssel {key}: "
+                                  f"{prices[key]} vs {value}")
+                    else:
+                        # Schlüssel hinzufügen
+                        prices[key] = value
+            except Exception as e:
+                print(f"Fehler beim Verarbeiten der Zeile: {line}\n{e}")
+
+# Ergebnis ausgeben
+print("Kombiniertes Dictionary:")
+print(prices)
 
 # Ask for the number of entries and images per object
 num_entries = int(input("How many samples should be added? "))
@@ -71,8 +92,16 @@ def capture_images(objects_id_list, total_price, num_images):
 
         # Increment the ID and update id.txt
         current_id += 1
+        with open(id_file_path, "r") as f:
+            lines = f.readlines()
+
+        if lines:
+            lines[0] = "current_id: " + str(current_id) + "\n"
+        else:
+            lines.append("current_id: " + str(current_id) + "\n")
+
         with open(id_file_path, "w") as f:
-            f.write("current_id: "+ str(current_id))
+            f.writelines(lines)
 
     picam.stop()
 
