@@ -16,9 +16,9 @@ GPIO.setup(BUTTON_GPIO, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 
 # Target directory for storing images
 data_to_path = "./Dataset"
-id_file_path = os.path.join(data_to_path, "info/id.txt")
-prices_file_path = os.path.join(data_to_path, "info/prices.txt")
-subfder = "test"
+id_file_path = os.path.join(data_to_path, "id.txt")
+prices_file_path = os.path.join(data_to_path, "prices.txt")
+subfder = "custom"
 data_to_path = os.path.join(data_to_path, subfder)
 print(data_to_path)
 if not os.path.exists(data_to_path):
@@ -30,7 +30,7 @@ if not os.path.exists(id_file_path):
         f.write("0")  # Start with ID 0
 
 with open(id_file_path, "r") as f:
-    current_id = int(f.read().strip())
+    current_id = int(f.readline().split(" ")[1])
 
 # Load prices from prices.txt
 if not os.path.exists(prices_file_path):
@@ -38,7 +38,7 @@ if not os.path.exists(prices_file_path):
     exit(1)
 
 with open(prices_file_path, "r") as f:
-    prices = ast.literal_eval(f.read().strip())
+    prices = ast.literal_eval(f.readline().strip().split(": ", 1)[1])
 
 # Ask for the number of entries and images per object
 num_entries = int(input("How many samples should be added? "))
@@ -56,7 +56,7 @@ def capture_images(objects_id_list, total_price, num_images):
     print("Waiting for button press to capture image...")
     GPIO.wait_for_edge(BUTTON_GPIO, GPIO.FALLING)
     for j in range(num_images):
-        time.sleep(1)
+        time.sleep(0.3)
 
         # Save image with the current ID
         file_path = os.path.join(data_to_path, f"image_{current_id}.jpg")
@@ -72,7 +72,7 @@ def capture_images(objects_id_list, total_price, num_images):
         # Increment the ID and update id.txt
         current_id += 1
         with open(id_file_path, "w") as f:
-            f.write(str(current_id))
+            f.write("current_id: "+ str(current_id))
 
     picam.stop()
 
