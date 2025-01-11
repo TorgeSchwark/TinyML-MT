@@ -3,3 +3,5 @@
 3. source venv/bin/activate to enter the virtual environment
     bzw: venv\Scripts\activate
 4. pip install -r requirements.txt to install the requirements in the current
+
+zip Datasets need to be pulled via "git lfs pull"

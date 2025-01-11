@@ -11,3 +11,4 @@ yolo/
 wandb/
 TinyML-CartDetection/
 checkpoints/
+Dataset/
