@@ -1,2 +1,0 @@
-Objects: {16: 2, 15: 1, 28: 1}
-Total Price: 7.18

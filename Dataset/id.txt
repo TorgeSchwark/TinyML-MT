@@ -1,2 +1,0 @@
-current_id: 27548
-Label_count: 38

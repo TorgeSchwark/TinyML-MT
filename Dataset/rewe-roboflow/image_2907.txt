@@ -1,2 +1,0 @@
-Objects: {38: 2, 21: 2, 23: 2}
-Total Price: 14.14

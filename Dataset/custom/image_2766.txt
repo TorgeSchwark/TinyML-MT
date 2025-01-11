@@ -1,2 +1,0 @@
-Objects: {1: 1, 2: 1, 4: 2}
-Total Price: 2.01
