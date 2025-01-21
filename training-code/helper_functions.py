@@ -46,7 +46,7 @@ def load_image_label(file_name, dataset_path, image_size):
     return image, label
 
 
-def load_image_labeles_classify(file_name, dataset_path,image_size,  num_classes):
+def load_image_labels_classify(file_name, dataset_path,image_size,  num_classes):
     """Helper function to load image and label (class counts) from a given file."""
     # Load Image
     image_path = os.path.join(dataset_path, file_name)
@@ -70,6 +70,7 @@ def load_image_labeles_classify(file_name, dataset_path,image_size,  num_classes
                     
                     for obj in objects_info:
                         class_id, count = map(int, obj.split(":"))
+                        class_id -= 1
                         label[class_id] = count  # Füge die Anzahl der Objekte für diese Klasse hinzu
                 if line.startswith("Total Price:"):
                     # Wenn der Preis benötigt wird, kann er hier extrahiert werden
@@ -81,7 +82,7 @@ def load_image_labeles_classify(file_name, dataset_path,image_size,  num_classes
     
     return image, label
 
-def get_num_clases(prices_file_path):
+def get_num_classes(prices_file_path):
     prices = {}
     with open(prices_file_path, "r") as f:
         for line in f:
