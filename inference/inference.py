@@ -58,7 +58,7 @@ try:
 
         # Bild speichern
         temp_image_path = os.path.join(TEMP_DIR, f"captured_image_{i}.jpg")
-        Image.fromarray(frame).save(temp_image_path, "JPEG")
+        picam2.capture_file(temp_image_path)
         print(f"Image saved as {temp_image_path}")
 
         # Bild wieder laden
