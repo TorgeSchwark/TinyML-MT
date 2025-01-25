@@ -6,7 +6,7 @@ from PIL import Image
 import matplotlib.pyplot as plt
 from torchvision.transforms import  Compose, ToTensor
 import os
-import pytorch 
+#import pytorch 
 
 # TFLite-Modell laden
 interpreter = tf.lite.Interpreter(model_path="/home/torge/Desktop/TinyML-MT/training-code/quantization/good-tf_model/good-model_float32.tflite")
@@ -75,18 +75,20 @@ try:
         
 
         # Bild normalisieren
-        image = np.array(image) / 255.0 # in hp.load_image_labels_classify ...
-        image = (image * 255).astype(np.uint8) # in ImagePriceDataset
+        image_normal = np.array(image) / 255.0 # in hp.load_image_labels_classify ...
+        image = (image_normal * 255).astype(np.uint8) # in ImagePriceDataset
         transform_test = Compose([
             ToTensor()                         # Konvertiere das Bild zu einem Tensor
         ])
-        input_data = transform_test(Image.fromarray(image))
+        input_data_less_dim = transform_test(Image.fromarray(image))
+        input_data_less_dim = np.transpose(input_data_less_dim, (1, 2, 0))
 
         # input_data = preprocess_input(np.expand_dims(image, axis=0), input_scale, input_zero_point)
-
+        input_data = np.expand_dims(input_data_less_dim, axis=0)
         # Dimensionen von input_data anzeigen
         print("Dimensionen der Eingabedaten:", input_data.shape)
 
+        
         # Eingabedaten setzen
         interpreter.set_tensor(input_details[0]['index'], input_data)
 
