@@ -11,7 +11,7 @@ import helper_functions as hp
 #import pytorch 
 
 # TFLite-Modell laden
-interpreter = tf.lite.Interpreter(model_path="/home/torge/Desktop/TinyML-MT/training-code/quantization/good-tf_model/good-model_float32.tflite")
+interpreter = tf.lite.Interpreter(model_path="/home/torge/Desktop/TinyML-MT/training-code/quantization/big-tf_model/big-model_float32.tflite")
 interpreter.allocate_tensors()
 
 # Eingabe- und Ausgabetensoren abrufen
