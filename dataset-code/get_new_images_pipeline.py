@@ -1,99 +1,145 @@
-import tensorflow as tf
-import RPi.GPIO as GPIO
-import numpy as np
-from picamera2 import Picamera2
-from PIL import Image
-import matplotlib.pyplot as plt
+import time
 import os
+import ast
+from picamera2 import Picamera2
+import RPi.GPIO as GPIO
 
-# TFLite-Modell laden
-interpreter = tf.lite.Interpreter(model_path="/home/torge/Desktop/TinyML-MT/training-code/quantization/good-tf_model/good-model_float32.tflite")
-interpreter.allocate_tensors()
+# Initialize and configure the camera
+picam = Picamera2()
+config = picam.create_video_configuration({"size": (800, 600)})
+picam.configure(config)
 
-# Eingabe- und Ausgabetensoren abrufen
-input_details = interpreter.get_input_details()
-output_details = interpreter.get_output_details()
-print(input_details, output_details)
-
-# Eingabe- und Ausgabequantisierungsparameter
-input_scale, input_zero_point = input_details[0]['quantization']
-output_scale, output_zero_point = output_details[0]['quantization']
-
-def preprocess_input(input_data, input_scale, input_zero_point):
-    """Wandelt die Eingabedaten in das quantisierte Format um."""
-    input_data = np.round(input_data / input_scale + input_zero_point).astype(np.int8)
-    return input_data
-
-def dequantize_output(output_data, output_scale, output_zero_point):
-    """Wandelt die quantisierten Ausgabedaten zurück in Float32."""
-    return (output_data.astype(np.float32) - output_zero_point) * output_scale
-
-# GPIO für Button einrichten
+# Setup GPIO for button press
 BUTTON_GPIO = 18
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(BUTTON_GPIO, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 
-# Kamera initialisieren
-picam2 = Picamera2()
+# Target directory for storing images
+data_to_path = "./Dataset"
+id_file_path = os.path.join(data_to_path, "id.txt")
+prices_file_path = os.path.join(data_to_path, "prices.txt")
+subfder = "custom"
+data_to_path = os.path.join(data_to_path, subfder)
+prices = {}
+print(data_to_path)
+if not os.path.exists(data_to_path):
+    os.makedirs(data_to_path)
 
-# Kamera konfigurieren (Vorschau-Konfiguration verwenden)
-camera_config = picam2.create_video_configuration({"size": (800, 600)})
-picam2.configure(camera_config)
+# Initialize or read the current image ID
+if not os.path.exists(id_file_path):
+    with open(id_file_path, "w") as f:
+        f.write("0")  # Start with ID 0
 
-# Temporärer Ordner für gespeicherte Bilder
-TEMP_DIR = "./temp_images"
-os.makedirs(TEMP_DIR, exist_ok=True)
+with open(id_file_path, "r") as f:
+    current_id = int(f.readline().split(" ")[1])
 
-# Kamera starten
-picam2.start()
+# Load prices from prices.txt
+if not os.path.exists(prices_file_path):
+    print(f"Error: {prices_file_path} not found.")
+    exit(1)
 
-try:
-    for i in range(10):
-        print("Waiting for button press to capture image...")
-        GPIO.wait_for_edge(BUTTON_GPIO, GPIO.FALLING)
+with open(prices_file_path, "r") as f:
+    for line in f:
+        # Extrahiere das Dictionary aus der Zeile
+        if ": " in line:
+            _, dict_str = line.strip().split(": ", 1)
+            try:
+                current_dict = ast.literal_eval(dict_str)
+                for key, value in current_dict.items():
+                    if key in prices:
+                        # Überprüfen, ob Werte übereinstimmen
+                        if prices[key] != value:
+                            print(f"Warnung: Konflikt für Schlüssel {key}: "
+                                  f"{prices[key]} vs {value}")
+                    else:
+                        # Schlüssel hinzufügen
+                        prices[key] = value
+            except Exception as e:
+                print(f"Fehler beim Verarbeiten der Zeile: {line}\n{e}")
 
-        # Bild aufnehmen
-        frame = picam2.capture_array()  # Erfasst ein RGB888-Bild als NumPy-Array
-        print("Image captured!")
+# Ergebnis ausgeben
+print("Kombiniertes Dictionary:")
+print(prices)
 
-        # Bild speichern
-        temp_image_path = os.path.join(TEMP_DIR, f"captured_image_{i}.jpg")
-        Image.fromarray(frame).save(temp_image_path, "JPEG")
-        print(f"Image saved as {temp_image_path}")
+# Ask for the number of entries and images per object
+num_entries = int(input("How many samples should be added? "))
+num_images_per_entry = int(input("How many images per object? "))
 
-        # Bild wieder laden
-        image = Image.open(temp_image_path)
-        image = image.resize((200, 200))  # Modellgröße anpassen (falls nötig)
+# Valid object IDs and response keywords
+valid_ids = list(prices.keys())
+negative = ["n", "N", "break", "Break", "exit", "stop", "return"]
+positive = ["y", "Y", "continue"]
 
-        # Bild anzeigen
-        plt.imshow(image)
-        plt.title("Captured Image (JPG)")
-        plt.axis("off")
-        plt.show()
+# Function to capture images
+def capture_images(objects_id_list, total_price, num_images):
+    global current_id
+    picam.start()
+    print("Waiting for button press to capture image...")
+    GPIO.wait_for_edge(BUTTON_GPIO, GPIO.FALLING)
+    for j in range(num_images):
+        time.sleep(0.3)
 
-        # Bild normalisieren
-        image = np.array(image) / 255.0
-        input_data = preprocess_input(np.expand_dims(image, axis=0), input_scale, input_zero_point)
+        # Save image with the current ID
+        file_path = os.path.join(data_to_path, f"image_{current_id}.jpg")
+        picam.capture_file(file_path)
+        print(f"Image saved: {file_path}")
 
-        # Dimensionen von input_data anzeigen
-        print("Dimensionen der Eingabedaten:", input_data.shape)
+        # Save object ID list and total price for the current image
+        metadata_file_path = os.path.join(data_to_path, f"image_{current_id}.txt")
+        with open(metadata_file_path, "w") as metadata_file:
+            metadata_file.write(f"Objects: {objects_id_list}\n")
+            metadata_file.write(f"Total Price: {total_price}\n")
 
-        # Eingabedaten setzen
-        interpreter.set_tensor(input_details[0]['index'], input_data)
+        # Increment the ID and update id.txt
+        current_id += 1
+        with open(id_file_path, "r") as f:
+            lines = f.readlines()
 
-        # Inferenz durchführen
-        interpreter.invoke()
+        if lines:
+            lines[0] = "current_id: " + str(current_id) + "\n"
+        else:
+            lines.append("current_id: " + str(current_id) + "\n")
 
-        # Ergebnisse abrufen und dequantisieren  
-        output_data = interpreter.get_tensor(output_details[0]['index'])
-        output_data = dequantize_output(output_data, output_scale, output_zero_point)
+        with open(id_file_path, "w") as f:
+            f.writelines(lines)
 
-        # Ergebnisse runden
-        output_data = np.round(output_data).astype(int)
-        print("Inference result (dequantized):", output_data)
+    picam.stop()
 
-finally:
-    # Ressourcen aufräumen
-    GPIO.cleanup()
-    picam2.stop()
-    print("Cleaned up resources.")
+# Loop for capturing images
+for i in range(num_entries):
+    ids = True
+    objects_id_list = {}
+
+    while ids:
+        id_answer = input("Enter object IDs for the image (y to finish, n to clear IDs and start over): ")
+        if id_answer in positive:
+            print("The IDs will be recorded for the following images.")
+            print("Selected object IDs:", objects_id_list)
+
+            confirm = input("Confirm selection (y/n): ").lower()
+            if confirm in positive:
+                print("Preparing to capture images...")
+                break
+            else:
+                print("Starting new selection...")
+                objects_id_list = {}
+        elif id_answer in negative:
+            objects_id_list = {}
+            print("IDs have been cleared. Start entering again:")
+        elif id_answer.isdigit() and int(id_answer) in valid_ids:
+            amount_answer = input("How many of these?: ")
+            if amount_answer.isdigit():
+                objects_id_list[int(id_answer)] = int(amount_answer)
+            else:
+                print("Invalid amount. Please try again.")
+        else:
+            print("Invalid response. Please try again.")
+
+    # Calculate total price for the objects
+    total_price = sum(prices[obj_id][1] * count for obj_id, count in objects_id_list.items())
+
+    # Capture images
+    capture_images(objects_id_list, total_price, num_images_per_entry)
+
+print("Program finished.")
+GPIO.cleanup()
