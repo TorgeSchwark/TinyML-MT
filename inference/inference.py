@@ -4,6 +4,7 @@ import numpy as np
 from picamera2 import Picamera2
 from PIL import Image
 import matplotlib.pyplot as plt
+import os
 
 # TFLite-Modell laden
 interpreter = tf.lite.Interpreter(model_path="/home/torge/Desktop/TinyML-MT/training-code/quantization/good-tf_model/good-model_float32.tflite")
@@ -12,6 +13,7 @@ interpreter.allocate_tensors()
 # Eingabe- und Ausgabetensoren abrufen
 input_details = interpreter.get_input_details()
 output_details = interpreter.get_output_details()
+print(input_details, output_details)
 
 # Eingabe- und Ausgabequantisierungsparameter
 input_scale, input_zero_point = input_details[0]['quantization']
@@ -38,52 +40,60 @@ picam2 = Picamera2()
 camera_config = picam2.create_video_configuration({"size": (800, 600)})
 picam2.configure(camera_config)
 
+# Temporärer Ordner für gespeicherte Bilder
+TEMP_DIR = "./temp_images"
+os.makedirs(TEMP_DIR, exist_ok=True)
+
 # Kamera starten
 picam2.start()
-for i in range(10):
-    print("Waiting for button press to capture image...")
-    GPIO.wait_for_edge(BUTTON_GPIO, GPIO.FALLING)
 
-    # Bild aufnehmen
-    frame = picam2.capture_array()  # Erfasst ein RGB888-Bild als NumPy-Array
-    print("Image captured!")
+try:
+    for i in range(10):
+        print("Waiting for button press to capture image...")
+        GPIO.wait_for_edge(BUTTON_GPIO, GPIO.FALLING)
 
-    # Bild anzeigen
-    
+        # Bild aufnehmen
+        frame = picam2.capture_array()  # Erfasst ein RGB888-Bild als NumPy-Array
+        print("Image captured!")
 
-    # Bild vorbereiten
-    image = Image.fromarray(frame)
-    if image.mode == 'RGBA':
-        image = image.convert('RGB')
-    image = image.resize((200, 200))  # Modellgröße anpassen (falls nötig)
-    plt.imshow(frame)
-    plt.title("Captured Image")
-    plt.axis("off")
-    plt.show()
-    image = np.array(image) / 255.0  # Normalisieren auf [0, 1]
-    # Quantisierung der Eingabedaten
-    # input_data = preprocess_input(np.expand_dims(image, axis=0), input_scale, input_zero_point)
+        # Bild speichern
+        temp_image_path = os.path.join(TEMP_DIR, f"captured_image_{i}.jpg")
+        Image.fromarray(frame).save(temp_image_path, "JPEG")
+        print(f"Image saved as {temp_image_path}")
 
-    print(input_data)
-    # Dimensionen von input_data anzeigen
-    input_data = np.expand_dims(image, axis=0)
-    print("Dimensionen der Eingabedaten:", input_data.shape)
+        # Bild wieder laden
+        image = Image.open(temp_image_path)
+        image = image.resize((200, 200))  # Modellgröße anpassen (falls nötig)
 
-    # Eingabedaten setzen
-    interpreter.set_tensor(input_details[0]['index'], input_data)
+        # Bild anzeigen
+        plt.imshow(image)
+        plt.title("Captured Image (JPG)")
+        plt.axis("off")
+        plt.show()
 
-    # Inferenz durchführen
-    interpreter.invoke()
+        # Bild normalisieren
+        image = np.array(image) / 255.0
+        input_data = preprocess_input(np.expand_dims(image, axis=0), input_scale, input_zero_point)
 
-    # Ergebnisse abrufen und dequantisieren  
-    output_data = interpreter.get_tensor(output_details[0]['index'])
-    #output_data = dequantize_output(output_data, output_scale, output_zero_point)
-    print(output_data)
-    # Ergebnisse runden
-    output_data = np.round(output_data).astype(int)
-    print("Inference result (dequantized):", output_data)
+        # Dimensionen von input_data anzeigen
+        print("Dimensionen der Eingabedaten:", input_data.shape)
 
+        # Eingabedaten setzen
+        interpreter.set_tensor(input_details[0]['index'], input_data)
 
-# Ressourcen aufräumen
-GPIO.cleanup()
-picam2.stop()
+        # Inferenz durchführen
+        interpreter.invoke()
+
+        # Ergebnisse abrufen und dequantisieren  
+        output_data = interpreter.get_tensor(output_details[0]['index'])
+        output_data = dequantize_output(output_data, output_scale, output_zero_point)
+
+        # Ergebnisse runden
+        output_data = np.round(output_data).astype(int)
+        print("Inference result (dequantized):", output_data)
+
+finally:
+    # Ressourcen aufräumen
+    GPIO.cleanup()
+    picam2.stop()
+    print("Cleaned up resources.")
