@@ -49,18 +49,18 @@ for i in range(10):
     print("Image captured!")
 
     # Bild anzeigen
-    plt.imshow(frame)
-    plt.title("Captured Image")
-    plt.axis("off")
-    plt.show()
+    
 
     # Bild vorbereiten
     image = Image.fromarray(frame)
     if image.mode == 'RGBA':
         image = image.convert('RGB')
     image = image.resize((200, 200))  # Modellgröße anpassen (falls nötig)
+    plt.imshow(frame)
+    plt.title("Captured Image")
+    plt.axis("off")
+    plt.show()
     image = np.array(image) / 255.0  # Normalisieren auf [0, 1]
-    print(image)
     # Quantisierung der Eingabedaten
     input_data = preprocess_input(np.expand_dims(image, axis=0), input_scale, input_zero_point)
     print(input_data)
