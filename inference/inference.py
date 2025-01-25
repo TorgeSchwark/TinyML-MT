@@ -6,6 +6,8 @@ from PIL import Image
 import matplotlib.pyplot as plt
 from torchvision.transforms import  Compose, ToTensor
 import os
+import helper_functions as hp
+
 #import pytorch 
 
 # TFLite-Modell laden
@@ -48,6 +50,9 @@ os.makedirs(TEMP_DIR, exist_ok=True)
 
 # Kamera starten
 picam2.start()
+price_path = "../Dataset/prices.txt"
+prices = hp.get_combined_dict(price_path)
+print(prices)
 
 try:
     for i in range(10):
@@ -102,6 +107,13 @@ try:
         print(output_data)
         # Ergebnisse runden
         output_data = np.round(output_data).astype(int)
+        positions = {}
+        for idx, value in enumerate(output_data):
+            if value > 1:
+                positions[idx] = value
+        for key in positions:
+            print(prices[key+1][0])
+
         print("Inference result (dequantized):", output_data)
 
 finally:
