@@ -19,9 +19,9 @@ print(input_details, output_details)
 input_scale, input_zero_point = input_details[0]['quantization']
 output_scale, output_zero_point = output_details[0]['quantization']
 
-def preprocess_input(input_data, input_scale, input_zero_point):
+def preprocess_input(input_data, input_scale, input_zero_point, type):
     """Wandelt die Eingabedaten in das quantisierte Format um."""
-    input_data = np.round(input_data / input_scale + input_zero_point).astype(np.int8)
+    input_data = np.round(input_data / input_scale + input_zero_point).astype(type)
     return input_data
 
 def dequantize_output(output_data, output_scale, output_zero_point):
@@ -63,17 +63,18 @@ try:
 
         # Bild wieder laden
         image = Image.open(temp_image_path)
-        image = image.resize((200, 200))  # Modellgröße anpassen (falls nötig)
-
         # Bild anzeigen
         plt.imshow(image)
         plt.title("Captured Image (JPG)")
         plt.axis("off")
         plt.show()
+        image = image.resize((200, 200))  # Modellgröße anpassen (falls nötig)
+
+        
 
         # Bild normalisieren
         image = np.array(image) / 255.0
-        input_data = preprocess_input(np.expand_dims(image, axis=0), input_scale, input_zero_point)
+        input_data = preprocess_input(np.expand_dims(image, axis=0), input_scale, input_zero_point, np.float32)
 
         # Dimensionen von input_data anzeigen
         print("Dimensionen der Eingabedaten:", input_data.shape)
@@ -88,6 +89,7 @@ try:
         output_data = interpreter.get_tensor(output_details[0]['index'])
         output_data = dequantize_output(output_data, output_scale, output_zero_point)
 
+        print(output_data)
         # Ergebnisse runden
         output_data = np.round(output_data).astype(int)
         print("Inference result (dequantized):", output_data)
