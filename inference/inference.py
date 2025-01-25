@@ -6,7 +6,7 @@ from PIL import Image
 import matplotlib.pyplot as plt
 
 # TFLite-Modell laden
-interpreter = tf.lite.Interpreter(model_path="/home/torge/Desktop/TinyML-MT/training-code/quantization/good-model_quantized.tflite")
+interpreter = tf.lite.Interpreter(model_path="/home/torge/Desktop/TinyML-MT/training-code/quantization/good-tf_model/good-model_float32.tflite")
 interpreter.allocate_tensors()
 
 # Eingabe- und Ausgabetensoren abrufen
@@ -62,9 +62,11 @@ for i in range(10):
     plt.show()
     image = np.array(image) / 255.0  # Normalisieren auf [0, 1]
     # Quantisierung der Eingabedaten
-    input_data = preprocess_input(np.expand_dims(image, axis=0), input_scale, input_zero_point)
+    # input_data = preprocess_input(np.expand_dims(image, axis=0), input_scale, input_zero_point)
+
     print(input_data)
     # Dimensionen von input_data anzeigen
+    input_data = np.expand_dims(image, axis=0)
     print("Dimensionen der Eingabedaten:", input_data.shape)
 
     # Eingabedaten setzen
@@ -75,7 +77,7 @@ for i in range(10):
 
     # Ergebnisse abrufen und dequantisieren  
     output_data = interpreter.get_tensor(output_details[0]['index'])
-    output_data = dequantize_output(output_data, output_scale, output_zero_point)
+    #output_data = dequantize_output(output_data, output_scale, output_zero_point)
     print(output_data)
     # Ergebnisse runden
     output_data = np.round(output_data).astype(int)
