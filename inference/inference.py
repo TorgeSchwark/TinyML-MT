@@ -4,7 +4,9 @@ import numpy as np
 from picamera2 import Picamera2
 from PIL import Image
 import matplotlib.pyplot as plt
+from torchvision.transforms import  Compose, ToTensor
 import os
+import pytorch 
 
 # TFLite-Modell laden
 interpreter = tf.lite.Interpreter(model_path="/home/torge/Desktop/TinyML-MT/training-code/quantization/good-tf_model/good-model_float32.tflite")
@@ -73,8 +75,14 @@ try:
         
 
         # Bild normalisieren
-        image = np.array(image) / 255.0
-        input_data = preprocess_input(np.expand_dims(image, axis=0), input_scale, input_zero_point, np.float32)
+        image = np.array(image) / 255.0 # in hp.load_image_labels_classify ...
+        image = (image * 255).astype(np.uint8) # in ImagePriceDataset
+        transform_test = Compose([
+            ToTensor()                         # Konvertiere das Bild zu einem Tensor
+        ])
+        input_data = transform_test(Image.fromarray(image))
+
+        # input_data = preprocess_input(np.expand_dims(image, axis=0), input_scale, input_zero_point)
 
         # Dimensionen von input_data anzeigen
         print("Dimensionen der Eingabedaten:", input_data.shape)
@@ -87,7 +95,7 @@ try:
 
         # Ergebnisse abrufen und dequantisieren  
         output_data = interpreter.get_tensor(output_details[0]['index'])
-        output_data = dequantize_output(output_data, output_scale, output_zero_point)
+        # output_data = dequantize_output(output_data, output_scale, output_zero_point)
 
         print(output_data)
         # Ergebnisse runden
