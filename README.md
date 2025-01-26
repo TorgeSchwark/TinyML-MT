@@ -17,7 +17,7 @@ All python modules and their respective version are in the environment.yml:
 - Code for recording and manipulating data can be found in [dataset-code](dataset-code)
 - Code for training can be found in [training-code](training-code)
     - The training pipeline for our first attempt with one regression value can be found in [training.ipynb](training-code/training.ipynb)
-    - The pipeline for the second approach with classes is in [train_classes_.ipynb](training-code/train_classes.ipynb)
+    - The pipeline for the second approach with classes is in [train_classes.ipynb](training-code/train_classes.ipynb)
     
 - Important checkpoints, inference code and more are also available
 
