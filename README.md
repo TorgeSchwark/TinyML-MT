@@ -4,7 +4,7 @@ Welcome to our code for the shopping basket price detection project in TinyML!
 
 ## Installation
 
-All python modules and their respective version are in the environment.yml:
+All python modules and their respective version are in the environment.yml (Tested on Linux):
 
 1. Create conda environment: `conda env create -f environment.yml`
 2. Activate your environment and start exploring the code
