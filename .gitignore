@@ -12,3 +12,9 @@ wandb/
 TinyML-CartDetection/
 checkpoints/
 Dataset/
+training-code/quantization/keras_model/big-model_float32_v3.keras
+test_aproaches/all_generated_objects
+test_aproaches/generated_backgrounds
+test_aproaches/generated_images
+test_aproaches/all_objects_no_background
+
