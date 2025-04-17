@@ -9,6 +9,7 @@ MIT-Dataset
 datasets/
 yolo/
 wandb/
+runs/
 TinyML-CartDetection/
 checkpoints/
 Dataset/
