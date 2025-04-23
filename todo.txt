@@ -1,9 +1,0 @@
-Torge:  Layer visualisation
-Mats:   Parameter tuning (Goal: generalization) Farbverschiebung / Farbfilter.
-
-next up: 1. Quantization, Pruning testen
-         2. Deployment code raspberry pi 
-
-
-Torge 15.04.2025: lables um einen shiften
-         
