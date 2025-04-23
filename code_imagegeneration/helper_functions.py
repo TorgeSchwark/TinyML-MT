@@ -8,6 +8,7 @@ import torch.nn as nn
 import torchmetrics
 import pytorch_lightning as pl
 
+# TODO Use the helper function from code_training/helper-code/helper_functions.py
 def custom_augmentation(image):
     
     noise_factor = random.uniform(0.01, 0.03)

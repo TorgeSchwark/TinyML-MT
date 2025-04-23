@@ -21,3 +21,5 @@ test_aproaches/all_objects_no_background
 basket
 huggingface_cache
 .cache
+__pycache__/
+*.py[cod]
