@@ -23,3 +23,8 @@ huggingface_cache
 .cache
 __pycache__/
 *.py[cod]
+
+# ComfyUI
+code_imagegeneration/comfyui/default/*
+code_imagegeneration/comfyui/*.log
+!code_imagegeneration/comfyui/default/workflows
