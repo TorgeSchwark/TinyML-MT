@@ -21,7 +21,7 @@ def generate_yaml_from_coco(coco_json_path, output_yaml_path):
 
     # Dataset-Pfade
     dataset_paths = {
-        'train': './Dataset/images/train',
+        'train': './images/train',
         'val': './Dataset/images/val',
     }
 
