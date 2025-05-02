@@ -28,3 +28,4 @@ __pycache__/
 code_imagegeneration/comfyui/default/*
 code_imagegeneration/comfyui/*.log
 !code_imagegeneration/comfyui/default/workflows
+huggingface
