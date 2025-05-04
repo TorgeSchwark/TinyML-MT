@@ -10,6 +10,8 @@ datasets/
 yolo/
 wandb/
 runs/
+stable_diff/
+basket/
 TinyML-CartDetection/
 checkpoints/
 Dataset/
@@ -23,3 +25,10 @@ huggingface_cache
 .cache
 __pycache__/
 *.py[cod]
+
+# ComfyUI
+code_imagegeneration/comfyui/default/*
+code_imagegeneration/comfyui/*.log
+!code_imagegeneration/comfyui/default/workflows
+huggingface
+!code_dataset/huggingface

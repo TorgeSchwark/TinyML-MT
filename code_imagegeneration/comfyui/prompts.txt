@@ -1,0 +1,39 @@
+high-resolution photo of a small centered jar of strawberry marmalade on a white studio background, realistic lighting, visible product label
+
+high-resolution photo of a small centered oatmeal chocolate cereal package on a white studio background, realistic lighting, visible colorful supermarket product label
+
+high-resolution photo of a small centered canned food with colorful supermarket product label on a white studio background, realistic lighting
+
+
+Usage:
+SD: 
+- Res: 512, 10 steps
+    -  Batch: 4
+        100% util, 6GB mem, 90s 
+    - Batch: 8
+        100% util 9GB mem, 113sec
+    - Batch: 12
+        100% util, 9GB mem, 200sec
+    - Batch: 16
+        100% util, 9GB mem, 230sec
+    --> Seems like 8 at a time
+
+20 steps, 8 batch: 224sec --> Double the time
+
+Flux:
+- Res: 512, 10 steps --> Doesnt make sense for Flux
+    -  Batch 4:
+        100% util, 11.5GB mem, 321s 
+
+    20 steps:
+    - Batch: 4 100% util, 11.5 mem, 647s    
+
+- Res: 256, 10 steps 
+        100% util, 11.5GB mem, 121s
+
+    20 steps:
+    - Batch: 4 100% util 11.5GB mem, 
+
+
+
+-> 4 on any setting leads to mem error
