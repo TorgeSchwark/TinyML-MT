@@ -33,11 +33,11 @@ PROMPT_PRESETS = [
 # This mode allows using a different prompt(s) for each class
 PER_PROMPT = True
 PER_PROMPT = {
-    "avocado": ["A whole avocado uncut, centered on a pure white background, natural lighting, high clarity, professional produce photo for a grocery store"],
+    "avocado": ["An unripe whole avocado, centered on a pure white background, natural lighting, high clarity, professional produce photo for a grocery store"], # from the outside
     "apple": ["A single fresh red apple placed centrally on a white background, studio lighting, no shadows, supermarket product photo"],
     "lemon": ["A ripe yellow lemon centered on a seamless white background, high-resolution studio photo, minimal shadows, product-style image"],
     "banana": ["A banana bundle placed centrally on a plain white background, professional lighting, clear and detailed, supermarket-style photo"],
-    "cucumber": ["A fresh uncut cucumber lying horizontally in the center of a white background, sharp focus, minimal shadows, clean product photography"],
+    "cucumber": ["A fresh whole cucumber in the center of a white background, sharp focus, minimal shadows, clean product photography"],
     "tomato sauce": ["A glass jar of tomato sauce with label facing forward, centered on a white background, bright lighting, realistic packaging style photo"],
     "fruit tea": ["A box of fruit tea with visible branding and design, placed in the center on a white background, sharp studio image, supermarket shelf style"],
     "coffee": ["Studio shot of a supermarket coffee on a white background, centered, clear details, minimal shadows, professional lighting"],
@@ -105,12 +105,6 @@ if PER_PROMPT:
                         # Queue the prompt for each batch
                         queue_prompt(ws, prompt)
             
-            # Queue the prompt for each batch
-            for i in range(amount):
-                new_seed = random.getrandbits(64)
-                prompt["15"]["inputs"]["seed"] = new_seed   
-                queue_prompt(ws, prompt)
-                overall_pbar.update(1)
 else:
     with tqdm(total=len(PROMPT_PRESETS) * len(CLASSES) * amount, desc="Overall Progress") as overall_pbar:
         for cla in CLASSES:
