@@ -29,12 +29,32 @@ def apply_rotation(image, angle_range=(-180, 180)):
 
 def apply_noise(image, noise_std=10):
     """
-    Apply random noise to an image.
+    Apply random noise to non-transparent areas of an RGBA image, or to the whole image if RGB.
     """
     image_np = np.array(image)
-    noise = np.random.normal(0, noise_std, image_np.shape).astype(np.int16)
-    noisy = np.clip(image_np + noise, 0, 255).astype(np.uint8)
-    return Image.fromarray(noisy, mode=image.mode)
+
+    if image.mode == "RGBA":
+        rgb = image_np[..., :3]
+        alpha = image_np[..., 3]
+
+        noise = np.random.normal(0, noise_std, rgb.shape).astype(np.int16)
+        
+        # Maske: wo alpha > 0 → kein voller Durchblick
+        mask = alpha > 0
+        mask = np.expand_dims(mask, axis=2)  # Shape (H, W, 1) für Broadcasting
+
+        # Rauschen nur anwenden, wo alpha > 0
+        rgb_noisy = np.clip(rgb + noise * mask, 0, 255).astype(np.uint8)
+
+        combined = np.concatenate((rgb_noisy, alpha[..., np.newaxis]), axis=2)
+        return Image.fromarray(combined, mode="RGBA")
+
+    else:
+        # Kein Alpha → auf gesamtes Bild anwenden
+        noise = np.random.normal(0, noise_std, image_np.shape).astype(np.int16)
+        noisy = np.clip(image_np + noise, 0, 255).astype(np.uint8)
+        return Image.fromarray(noisy, mode=image.mode)
+
 
 def apply_shadow(image, shadow_alpha_range=(30, 80), blur_radius=5):
     """
