@@ -102,11 +102,13 @@ def scale_object(object_image, max_width, max_height):
 
 
 # Check if new_object overlaps existing objects beyond allowed percentage
-def check_collision(objects, new_object, x, y, max_overlap=0.3):
-    new_bbox = (x, y, x + new_object.size[0], y + new_object.size[1])
+def check_collision(objects, new_w, new_h, x, y, max_overlap=0.4):
+    new_bbox = (x, y, x + new_w, y + new_h)
+    new_area = new_w * new_h
 
-    for obj, (ox, oy) in objects:
-        obj_bbox = (ox, oy, ox + obj.size[0], oy + obj.size[1])
+    for (ob_w, ob_h), (ox, oy) in objects:
+        obj_bbox = (ox, oy, ox + ob_w, oy + ob_h)
+        obj_area = ob_w * ob_h
 
         # Intersection bbox
         ix1 = max(new_bbox[0], obj_bbox[0])
@@ -116,68 +118,113 @@ def check_collision(objects, new_object, x, y, max_overlap=0.3):
 
         if ix1 < ix2 and iy1 < iy2:
             intersection_area = (ix2 - ix1) * (iy2 - iy1)
-            obj_area = obj.size[0] * obj.size[1]
-            if intersection_area / obj_area > max_overlap:
+            union_area = new_area + obj_area - intersection_area
+            overlap_ratio = obj_area/ union_area
+
+            if overlap_ratio > max_overlap:
                 return True
 
     return False
 
 
+def add_realistic_shadow_and_light(obj, shadow_offset=(4, 4), blur_radius=5,
+                                   shadow_color=(0, 0, 0, 30)):
+    w, h = obj.size
+    canvas_w, canvas_h = w * 2, h * 2
+
+    center_x = canvas_w // 2
+    center_y = canvas_h // 2
+
+    # Leerer Layer für Schatten und Objekt
+    shadow_layer = Image.new("RGBA", (canvas_w, canvas_h), (0, 0, 0, 0))
+    object_layer = Image.new("RGBA", (canvas_w, canvas_h), (0, 0, 0, 0))
+
+    # 1. Alpha-Kanal holen
+    obj_alpha = obj.split()[-1]
+
+    # 2. Großes leeres Alphabild erstellen
+    full_alpha = Image.new("L", (canvas_w, canvas_h), 0)
+    alpha_pos = (center_x - w // 2 + shadow_offset[0], center_y - h // 2 + shadow_offset[1])
+    full_alpha.paste(obj_alpha, alpha_pos)
+
+    # 3. Schattenbild erzeugen
+    shadow = Image.new("RGBA", (canvas_w, canvas_h), shadow_color)
+    shadow.putalpha(full_alpha)
+    shadow = shadow.filter(ImageFilter.GaussianBlur(blur_radius))
+
+    # 4. Objekt platzieren
+    object_pos = (center_x - w // 2, center_y - h // 2)
+    object_layer.paste(obj, object_pos, mask=obj)
+
+    # 5. Kombinieren
+    combined = Image.alpha_composite(shadow, object_layer)
+
+    return combined
+
+
+
 def place_objects_on_background(background_image, object_images, object_counts, category_to_id, image_resolution=(500, 500)):
-    # Skalieren des Hintergrundbildes auf gewünschte Auflösung
     background_image = background_image.resize(image_resolution, Image.LANCZOS)
+                
+    shadow_offset = (random.randint(-10, 10), random.randint(-10, 10))
+
     bg_width, bg_height = background_image.size
 
     n_objects = len(object_images)
-    grid_size = math.ceil(math.sqrt(n_objects))  # z. B. bei 8 → 3x3 Gitter
+    grid_size = math.ceil(math.sqrt(n_objects))
 
     base_max_w = bg_width // grid_size
     base_max_h = bg_height // grid_size
 
     placed_objects = []
+    placed_object_with_shadow = []
     yolo_labels = []
 
     for object_image, category in object_images:
-        # Lies den Skalierungsfaktor aus dem Image-Objekt
         scale = object_image.info.get("custom_scale", 1.0)
 
         max_w = int(base_max_w * scale)
         max_h = int(base_max_h * scale)
 
-        # Objekt skalieren
-        scaled = scale_object(object_image, max_w, max_h)
-        print("1", scaled.size[0], scaled.size[1])
-
-        # Augmentierung
-        scaled = augment_object(scaled)
-        print("2", scaled.size[0], scaled.size[1])
+        # Save original size for YOLO before applying shadow
+        scaled_obj = scale_object(object_image, max_w, max_h)
+        scaled_obj = augment_object(scaled_obj)
+        original_w, original_h = scaled_obj.size
 
         placed = False
         attempts = 0
 
         while not placed and attempts < 8:
-            max_x = bg_width - scaled.size[0]
-            max_y = bg_height - scaled.size[1]
+            max_x = bg_width - original_w
+            max_y = bg_height - original_h
 
             if max_x <= 0 or max_y <= 0:
                 print(f"Object {category} too large for background, retrying with smaller scale.")
-                scaled = scale_object(object_image, max_w, max_h)
+                scaled_obj = scale_object(object_image, max_w, max_h)
                 attempts += 1
                 continue
 
+            # Platzierungspunkt für das **Objekt**, nicht den Schatten
             x = random.randint(0, max_x)
             y = random.randint(0, max_y)
-            if not check_collision(placed_objects, scaled, x, y):
-                placed_objects.append((scaled, (x, y)))
+
+            center_w, center_h = original_w // 2, original_h // 2
+            if not check_collision(placed_objects, original_w, original_h, x , y):
+                # Jetzt erst Schatten generieren – damit der Schatten beliebig übersteht
+                with_shadow = add_realistic_shadow_and_light(scaled_obj, shadow_offset=shadow_offset)
+
+                placed_objects.append(((original_w, original_h), (x, y)))
+                placed_object_with_shadow.append((with_shadow, (x - with_shadow.size[0]//4, y - with_shadow.size[1]//4)))
+
                 placed = True
                 object_counts[category] += 1
 
-                # YOLO Label
+                # YOLO Label (nur bezogen auf Objektgröße, nicht Schatten)
                 class_id = category_to_id[category]
-                center_x = (x + scaled.size[0] / 2) / bg_width
-                center_y = (y + scaled.size[1] / 2) / bg_height
-                width = scaled.size[0] / bg_width
-                height = scaled.size[1] / bg_height
+                center_x = (x + center_w) / bg_width
+                center_y = (y + center_h) / bg_height
+                width = original_w / bg_width
+                height = original_h / bg_height
 
                 yolo_labels.append(f"{class_id} {center_x:.6f} {center_y:.6f} {width:.6f} {height:.6f}")
             else:
@@ -186,13 +233,13 @@ def place_objects_on_background(background_image, object_images, object_counts, 
         if not placed:
             print(f"Object {category} could not be placed after 8 attempts.")
 
-    # Falls kein Objekt erfolgreich platziert wurde → rekursiv neu versuchen
     if not placed_objects:
         return False, False
 
-    for obj, (x, y) in placed_objects:
+    for obj, (x, y) in placed_object_with_shadow:
+        # Paste schneidet automatisch Schatten ab, wenn er übersteht
         background_image.paste(obj, (x, y), obj)
 
-    # apply_snn
     return background_image, yolo_labels
+
 
