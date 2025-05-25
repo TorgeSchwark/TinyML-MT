@@ -10,6 +10,7 @@ image_output_base = './Dataset/images/'
 annotation_output_base = './Dataset/labels/'
 
 # ⚙️ Konfiguration: input_json → entweder [ratio, split] oder Liste davon
+# TODO augmented images should not be in val set
 split_config = {
     "D2S_training": [1.0, "train"],
     "D2S_validation": [1.0, "val"],

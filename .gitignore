@@ -2,7 +2,6 @@ api_key.txt
 Vegetables-1/
 venv/
 *.DS_Store 
-*.yaml
 lightning_logs
 TinyML-proj
 MIT-Dataset
