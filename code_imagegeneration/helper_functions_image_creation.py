@@ -13,10 +13,11 @@ from PIL import ImageDraw
 from PIL import ImageEnhance, ImageDraw, ImageFilter
 import numpy as np
 import random
+import copy
 
 from image_augmentations import *
 
-def augment_object(image, brightness_prob=0.8, brightness_range=(0.7, 1.3), contrast_prob=0.8, contrast_range=(0.7, 1.3), rotation_prob=0.5, rotation_range=(-15, 15),
+def augment_object(image, brightness_prob=0.8, brightness_range=(0.7, 1.3), contrast_prob=0.8, contrast_range=(0.7, 1.3), rotation_prob=1, rotation_range=(-90, 90),
                     noise_prob=0.3, noise_std=5, shadow_prob=0.5, shadow_alpha_range=(30, 80), shadow_blur_radius=5):
     
     if random.random() < brightness_prob: image = apply_brightness(image, brightness_range)
@@ -102,28 +103,25 @@ def scale_object(object_image, max_width, max_height):
 
 
 # Check if new_object overlaps existing objects beyond allowed percentage
-def check_collision(objects, new_w, new_h, x, y, max_overlap=0.4):
+def check_collision(occupancy_grid, new_w, new_h, x, y, max_overlap=50, grid_size=10):
     new_bbox = (x, y, x + new_w, y + new_h)
     new_area = new_w * new_h
+    position_on_grid = (x // grid_size, y // grid_size)
+    grid_w = new_w // grid_size
+    grid_h = new_h // grid_size
+    grid_area = grid_w * grid_h
+    count = 0
 
-    for (ob_w, ob_h), (ox, oy) in objects:
-        obj_bbox = (ox, oy, ox + ob_w, oy + ob_h)
-        obj_area = ob_w * ob_h
 
-        # Intersection bbox
-        ix1 = max(new_bbox[0], obj_bbox[0])
-        iy1 = max(new_bbox[1], obj_bbox[1])
-        ix2 = min(new_bbox[2], obj_bbox[2])
-        iy2 = min(new_bbox[3], obj_bbox[3])
-
-        if ix1 < ix2 and iy1 < iy2:
-            intersection_area = (ix2 - ix1) * (iy2 - iy1)
-            union_area = new_area + obj_area - intersection_area
-            overlap_ratio = obj_area/ union_area
-
-            if overlap_ratio > max_overlap:
+    for ind_x in range(position_on_grid[0], position_on_grid[0]+ grid_w):
+        for ind_y in range(position_on_grid[1],position_on_grid[1]+grid_h):
+            if ind_x >= 0 and ind_y >= 0 and ind_x < occupancy_grid.shape[0] and ind_y < occupancy_grid.shape[1]:
+                if occupancy_grid[ind_x, ind_y]:
+                    count += 1
+                    if count > max_overlap:
+                        return True
+            else:
                 return True
-
     return False
 
 
@@ -161,16 +159,104 @@ def add_realistic_shadow_and_light(obj, shadow_offset=(4, 4), blur_radius=5,
 
     return combined
 
+def add_to_collision_grid(grid_indices, occupancy_grid, object_position, w, h, x, y, grid_size=10):
+    grid_x = x // grid_size
+    grid_y = y // grid_size
+    grid_w = w // grid_size
+    grid_h = h // grid_size
+
+    object_position.append((grid_x, grid_y))
+
+    to_remove = set()
+
+    for ind_x in range(grid_x, grid_x + grid_w):
+        for ind_y in range(grid_y, grid_y + grid_h):
+            occupancy_grid[ind_x, ind_y] = True
+            to_remove.add((ind_x, ind_y))
+
+    grid_indices[:] = [idx for idx in grid_indices if idx not in to_remove]
+
+            
+def delete_boarders(grid_indices, occupancy_grid, boarder_x, boarder_y):
+    num_cells_x, num_cells_y = occupancy_grid.shape
+    to_remove = set()
+
+    # Ränder: links und rechts
+    for ind_x in range(num_cells_x):
+        for ind_y in range(num_cells_y):
+            if ind_x < boarder_x or ind_x >= num_cells_x - boarder_x \
+            or ind_y < boarder_y or ind_y >= num_cells_y - boarder_y:
+                occupancy_grid[ind_x, ind_y] = True
+                to_remove.add(ind_y * num_cells_x + ind_x)  # 1D Index
+
+    # Entferne belegte Indizes aus der Liste
+    grid_indices[:] = [idx for idx in grid_indices if idx not in to_remove]
+
+def add_object_padding(occupancy_grid_object, grid_indices, object_positions, object_size):
+    num_cells_x, num_cells_y = occupancy_grid_object.shape
+    to_remove = set()
+
+    for pos_x, pos_y in object_positions:
+        for dx in range(object_size[0]):
+            for dy in range(object_size[1]):
+                nx = pos_x - dx
+                ny = pos_y - dy
+                if 0 <= nx < num_cells_x and 0 <= ny < num_cells_y:
+                    occupancy_grid_object[nx, ny] = True
+                    # 1D index berechnen und merken
+                    idx_1d = int(ny * num_cells_x + nx) # Achte auf Reihenfolge (y * width + x)
+                    to_remove.add(idx_1d)
+
+    # grid_indices ist eine Liste von 1D-Indices: entferne belegte Zellen
+    grid_indices[:] = [idx for idx in grid_indices if idx not in to_remove]
+
+def add_boarder_padding(occupancy_grid_object, grid_index_object, object_grid_size, boarder_x, boarder_y):
+    num_cells_x, num_cells_y = occupancy_grid_object.shape
+    to_remove = set()
+
+    # Bereich links und rechts
+    for x in range(num_cells_x):
+        for y in range(num_cells_y):
+            # Prüfen, ob das Objekt mit seiner Größe + Padding den Rand überlappen würde
+            if x + object_grid_size[0] > num_cells_x - boarder_x or \
+               y + object_grid_size[1] > num_cells_y - boarder_y:
+                occupancy_grid_object[x, y] = True
+                idx_1d = y * num_cells_x + x
+                to_remove.add(idx_1d)
+
+    # Entferne alle betroffenen Indizes aus den verfügbaren Zellen
+    grid_index_object[:] = [idx for idx in grid_index_object if idx not in to_remove]
 
 
-def place_objects_on_background(background_image, object_images, object_counts, category_to_id, image_resolution=(500, 500)):
+
+
+def place_objects_on_background(background_image, object_images, object_counts, category_to_id, image_resolution=(500, 500), show = False):
+
+    cell_size = 10
+    num_cells_x = image_resolution[0] // 10
+    num_cells_y = image_resolution[1] // 10
+    n_objects = len(object_images)
+
+    
+    boarder_x = int(num_cells_x * 0.1)
+    boarder_y = int(num_cells_y * 0.1)
+
+    num_cells_total = num_cells_x * num_cells_y
+
+    overlap_area = (num_cells_total*cell_size) // ((n_objects+3) * 50)
+
+    grid_indices = list(range(num_cells_total))
+    object_position = []
+    occupancy_grid = np.zeros((num_cells_x, num_cells_y), dtype=bool)
+
+    delete_boarders(grid_indices, occupancy_grid, boarder_x, boarder_y)
+
     background_image = background_image.resize(image_resolution, Image.LANCZOS)
                 
     shadow_offset = (random.randint(-10, 10), random.randint(-10, 10))
 
     bg_width, bg_height = background_image.size
 
-    n_objects = len(object_images)
     grid_size = math.ceil(math.sqrt(n_objects))
 
     base_max_w = bg_width // grid_size
@@ -186,6 +272,11 @@ def place_objects_on_background(background_image, object_images, object_counts, 
         max_w = int(base_max_w * scale)
         max_h = int(base_max_h * scale)
 
+        overlap_area_on_size = max_w/cell_size* max_h/cell_size // 4 # max 20%overlap
+        if overlap_area_on_size < overlap_area:
+            overlap_area = overlap_area_on_size
+            print(f"Overlap area {overlap_area} is too large for object {category}.")
+
         # Save original size for YOLO before applying shadow
         scaled_obj = scale_object(object_image, max_w, max_h)
         scaled_obj = augment_object(scaled_obj)
@@ -194,23 +285,40 @@ def place_objects_on_background(background_image, object_images, object_counts, 
         placed = False
         attempts = 0
 
-        while not placed and attempts < 8:
-            max_x = bg_width - original_w
-            max_y = bg_height - original_h
+        if not grid_indices:
+                print("Keine freien Zellen mehr verfügbar.")
+                break  # oder return
+            
+        occupancy_grid_object = copy.copy(occupancy_grid)
+        grid_index_object = copy.copy(grid_indices)
 
-            if max_x <= 0 or max_y <= 0:
-                print(f"Object {category} too large for background, retrying with smaller scale.")
-                scaled_obj = scale_object(object_image, max_w, max_h)
-                attempts += 1
-                continue
+        padding_size_w = original_w *0.7
+        padding_size_h = original_h *0.7
+        object_grid_size = (int(padding_size_w//cell_size), int(padding_size_h//cell_size))
+        add_object_padding(occupancy_grid_object, grid_index_object, object_position, object_grid_size)
+        add_boarder_padding(occupancy_grid_object, grid_index_object, object_grid_size, boarder_x, boarder_y)
+        # Zufällige freie Zelle wählen
+        if not grid_index_object:
+                print("Keine freien Zellen mehr verfügbar nach padding.")
+                break  # oder return
+        print(len(grid_index_object)," places to be ")
 
-            # Platzierungspunkt für das **Objekt**, nicht den Schatten
-            x = random.randint(0, max_x)
-            y = random.randint(0, max_y)
+        while not placed and attempts < 20:
+
+            grid_index = random.choice(grid_index_object)
+            grid_x = grid_index % num_cells_x
+            grid_y = grid_index // num_cells_x
+
+            cell_size = 10
+            x = grid_x * cell_size
+            y = grid_y * cell_size
+
 
             center_w, center_h = original_w // 2, original_h // 2
-            if not check_collision(placed_objects, original_w, original_h, x , y):
+            if not check_collision(occupancy_grid, original_w, original_h, x , y, max_overlap= overlap_area):
+
                 # Jetzt erst Schatten generieren – damit der Schatten beliebig übersteht
+                add_to_collision_grid(grid_indices, occupancy_grid, object_position, original_w, original_h, x, y)
                 with_shadow = add_realistic_shadow_and_light(scaled_obj, shadow_offset=shadow_offset)
 
                 placed_objects.append(((original_w, original_h), (x, y)))

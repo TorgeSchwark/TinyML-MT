@@ -8,6 +8,27 @@ import torch.nn as nn
 import torchmetrics
 import pytorch_lightning as pl
 
+import os
+import shutil
+
+def move_jpg_files(source_dir, target_dir):
+    # Zielverzeichnis erstellen, falls nicht vorhanden
+    os.makedirs(target_dir, exist_ok=True)
+
+    # Alle Dateien im Quellverzeichnis durchgehen
+    for filename in os.listdir(source_dir):
+        if filename.lower().endswith(".jpg"):
+            src_path = os.path.join(source_dir, filename)
+            dst_path = os.path.join(target_dir, filename)
+            shutil.move(src_path, dst_path)
+            print(f"Verschoben: {src_path} → {dst_path}")
+
+# # Beispielaufruf:
+# source_path = "/data22/stu236894/GitRepos/TinyML-MT/Dataset/images"
+# target_path = "/data22/stu236894/GitRepos/TinyML-MT/Dataset/original_images"
+# move_jpg_files(source_path, target_path)
+
+
 # TODO Use the helper function from code_training/helper-code/helper_functions.py
 def custom_augmentation(image):
     
