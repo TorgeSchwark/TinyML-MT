@@ -1,6 +1,6 @@
 import os
 
-def check_yolo_integrity(dataset_dir='./Dataset'):
+def check_yolo_integrity(dataset_dir='./huggingface/mvtec_annotated'):
     splits = ['train', 'val', 'test']
     image_exts = ('.jpg', '.jpeg', '.png')
 

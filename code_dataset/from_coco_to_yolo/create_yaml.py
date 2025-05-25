@@ -39,8 +39,8 @@ def generate_yaml_from_coco(coco_json_path, output_yaml_path):
 
 # Beispielnutzung:
 def generate_yaml_from_coco_MVTEC():
-    coco_json_path = "./Dataset/annotations/D2S_training.json"
-    output_yaml_path = './Dataset/coco11.yaml'
+    coco_json_path = "./huggingface/annotations_for_mvtec/D2S_training.json"
+    output_yaml_path = './huggingface/mvtec_annotated/coco11.yaml'
     
     generate_yaml_from_coco(coco_json_path, output_yaml_path)
 

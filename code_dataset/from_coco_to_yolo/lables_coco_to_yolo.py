@@ -4,10 +4,10 @@ import random
 from shutil import copyfile
 
 # 🗂️ Pfade
-image_src_folder = './Dataset/images/'
-annotation_folder = './Dataset/annotations/'
-image_output_base = './Dataset/images/'
-annotation_output_base = './Dataset/labels/'
+image_src_folder = './huggingface/mvtec_flattened/'
+annotation_folder = './huggingface/annotations_for_mvtec/'
+image_output_base = './huggingface/mvtec_annotated/images'
+annotation_output_base = './huggingface/mvtec_annotated/labels'
 
 # ⚙️ Konfiguration: input_json → entweder [ratio, split] oder Liste davon
 # TODO augmented images should not be in val set
@@ -15,7 +15,7 @@ split_config = {
     "D2S_training": [1.0, "train"],
     "D2S_validation": [1.0, "val"],
     "D2S_test_info": [1.0, "test"],
-    "D2S_augmented": [[0.3, "val"], [0.7, "train"]],
+    "D2S_augmented": [1.0, "augmented"],
 }
 
 def load_categories(coco_data):
