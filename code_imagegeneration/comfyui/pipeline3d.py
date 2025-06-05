@@ -7,7 +7,7 @@ import shutil
 PATH = "huggingface/10classes"
 SCRIPT = "threestudio.sh"
 CONFIG = "custom/threestudio-mvimg-gen/configs/stable-zero123.yaml"
-FOLDERS = ["tomato sauce", "apple", "avocado", "banana", "coffee", "cucumber", "fruit tea", "lemon", "oatmeal"]
+FOLDERS = ["apple", "coffee", "cucumber", "avocado", "banana", "fruit tea", "lemon", "oatmeal", "tomato sauce"]
 REMOVE_BG = False
 
 def move_file(folder, pos):
@@ -48,13 +48,13 @@ for folder in FOLDERS:
 
             # From top
             new_seed = random.getrandbits(64)
-            command = f"./{SCRIPT} --config {CONFIG} --train --gpu 2 data.image_path=\"../{img_path}\" exp_root_dir=\"../{PATH}\" seed={new_seed} data.eval_elevation_deg=-30 data.n_test_views=4"
+            command = f"./{SCRIPT} --config {CONFIG} --train --gpu 2 data.image_path=\"../{img_path}\" exp_root_dir=\"../{PATH}\" seed={new_seed} data.random_camera.eval_elevation_deg=-30 data.random_camera.n_test_views=4"
             subprocess.run(command, shell=True, executable="/bin/zsh")
             move_file(folder, "bottom")
 
             # From top
             new_seed = random.getrandbits(64)
-            command = f"./{SCRIPT} --config {CONFIG} --train --gpu 2 data.image_path=\"../{img_path}\" exp_root_dir=\"../{PATH}\" seed={new_seed} data.eval_elevation_deg=60 data.n_test_views=4"
+            command = f"./{SCRIPT} --config {CONFIG} --train --gpu 2 data.image_path=\"../{img_path}\" exp_root_dir=\"../{PATH}\" seed={new_seed} data.random_camera.eval_elevation_deg=60 data.random_camera.n_test_views=4"
             subprocess.run(command, shell=True, executable="/bin/zsh")
             move_file(folder, "top")
                 
