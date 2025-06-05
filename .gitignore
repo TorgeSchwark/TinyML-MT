@@ -31,3 +31,4 @@ code_imagegeneration/comfyui/*.log
 !code_imagegeneration/comfyui/default/workflows
 huggingface
 !code_dataset/huggingface
+code_training/classification-code/Yolo-Training/*
