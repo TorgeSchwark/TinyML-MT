@@ -8,7 +8,6 @@ PATH = "huggingface/10classes"
 SCRIPT = "threestudio.sh"
 CONFIG = "custom/threestudio-mvimg-gen/configs/stable-zero123.yaml"
 FOLDERS = ["apple", "coffee", "cucumber", "avocado", "banana", "fruit tea", "lemon", "oatmeal", "tomato sauce"]
-REMOVE_BG = False
 
 def move_file(folder, pos):
     mvimg_dir = os.path.join(PATH,"mvimg-gen-zero123-sai")
