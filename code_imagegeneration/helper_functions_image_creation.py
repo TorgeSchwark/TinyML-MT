@@ -18,8 +18,9 @@ from datetime import datetime
 
 from image_augmentations import *
 
-def augment_object(image, brightness_prob=0.8, brightness_range=(0.7, 1.3), contrast_prob=0.8, contrast_range=(0.7, 1.3), rotation_prob=1, rotation_range=(-90, 90),
-                    noise_prob=0.3, noise_std=5, shadow_prob=0.5, shadow_alpha_range=(30, 80), shadow_blur_radius=5):
+def augment_object(image, brightness_prob=0.8, brightness_range=(0.3, 1.7), contrast_prob=0.8, contrast_range=(0.3, 1.7), rotation_prob=1, rotation_range=(-90, 90),
+                    noise_prob=0.3, noise_std=15, shadow_prob=0.5, shadow_alpha_range=(30, 80), shadow_blur_radius=5):
+    #TODO: add color shift (color jitter?)
     
     if random.random() < brightness_prob: image = apply_brightness(image, brightness_range)
 
@@ -34,10 +35,10 @@ def augment_object(image, brightness_prob=0.8, brightness_range=(0.7, 1.3), cont
     return image
 
 
-def augment_background(image, brightness_prob=0.9, brightness_range=(0.5, 1.5), 
-                       contrast_prob=0.9, contrast_range=(0.5, 1.5), 
-                       rotation_prob=0.7, rotation_range=(-30, 30), 
-                       noise_prob=0.5, noise_std=5, 
+def augment_background(image, brightness_prob=0.9, brightness_range=(0.3, 1.7), 
+                       contrast_prob=0.9, contrast_range=(0.3, 1.7), 
+                       rotation_prob=0.7, rotation_range=(-90, 90), 
+                       noise_prob=0.8, noise_std=10, 
                        shadow_prob=0.7, shadow_alpha_range=(50, 100), shadow_blur_radius=7, 
                        zoom_prob=0.6, zoom_range=(0.8, 1.2)):
 
@@ -52,9 +53,6 @@ def augment_background(image, brightness_prob=0.9, brightness_range=(0.5, 1.5),
 
     if random.random() < noise_prob: 
         image = apply_noise(image, noise_std)
-
-    if random.random() < shadow_prob: 
-        image = apply_shadow(image, shadow_alpha_range, shadow_blur_radius)
 
     return image
 
@@ -268,16 +266,14 @@ def equals(occupancy_grid, grid_index_object):
 
 
 
-
-
 def place_objects_on_background(background_image, object_images, object_counts, category_to_id, image_resolution=(500, 500), show = False):
     # Determines the size one object can take more or less fixed since we always have same camera distance
-    max_object_amount = 17+ random.randint(-2,2)
+    max_object_amount = 16 + random.randint(-6,6)
 
-    cell_size = 2
+    cell_size = 5
     max_shadow_offset = 10
-    boarder_size_percent = 0.1
-    allowed_overlap_per_side = 0.1 
+    boarder_size_percent = 0
+    allowed_overlap_per_side = 0.3
 
     num_cells_x = image_resolution[0] // cell_size
     num_cells_y = image_resolution[1] // cell_size
@@ -292,6 +288,8 @@ def place_objects_on_background(background_image, object_images, object_counts, 
     occupancy_grid = np.zeros((num_cells_x, num_cells_y), dtype=bool)
 
     delete_boarders(grid_indices, occupancy_grid, boarder_x, boarder_y)
+
+    background_image = augment_background(background_image)
 
     background_image = background_image.resize(image_resolution, Image.LANCZOS)
                 
@@ -317,15 +315,14 @@ def place_objects_on_background(background_image, object_images, object_counts, 
             print("Keine freien Zellen mehr verfügbar.")
             break  # oder return
             
-        occupancy_grid_object = copy.copy(occupancy_grid)
-        grid_index_object = copy.copy(grid_indices)
+        occupancy_grid_object = occupancy_grid.copy()
+        grid_index_object = grid_indices.copy()
 
         curr_object_grid_size = (int(scaled_w//cell_size), int(scaled_h//cell_size))
         add_object_padding(occupancy_grid_object, grid_index_object, objects_positions, curr_object_grid_size)
 
         add_boarder_padding(occupancy_grid_object, grid_index_object, curr_object_grid_size, boarder_x, boarder_y)
 
-        print("um: ", equals(occupancy_grid_object, grid_index_object) ,"verschieden")
 
         # Zufällige freie Zelle wählen
         if not grid_index_object:

@@ -1,0 +1,1800 @@
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple1/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple1/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple1/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple1/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple1/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple1/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple1/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple1/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple1/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple1/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple1/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple1/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple1/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple1/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple1/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple1/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple1/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple1/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple1/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple1/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple1/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple1/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple1/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple1/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple2/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple2/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple2/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple2/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple2/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple2/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple2/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple2/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple2/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple2/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple2/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple2/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple2/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple2/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple2/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple2/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple2/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple2/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple2/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple2/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple2/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple2/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple2/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple2/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple3/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple3/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple3/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple3/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple3/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple3/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple3/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple3/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple3/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple3/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple3/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple3/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple3/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple3/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple3/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple3/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple3/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple3/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple3/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple3/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple3/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple3/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple3/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple3/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple4/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple4/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple4/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple4/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple4/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple4/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple4/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple4/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple4/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple4/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple4/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple4/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple4/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple4/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple4/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple4/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple4/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple4/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple4/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple4/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple4/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple4/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple4/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple4/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple5/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple5/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple5/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple5/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple5/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple5/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple5/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple5/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple5/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple5/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple5/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple5/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple5/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple5/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple5/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple5/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple5/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple5/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple5/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple5/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple5/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple5/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple5/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple5/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple6/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple6/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple6/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple6/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple6/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple6/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple6/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple6/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple6/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple6/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple6/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple6/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple6/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple6/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple6/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple6/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple6/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple6/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple6/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple6/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple6/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple6/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple6/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple6/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple7/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple7/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple7/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple7/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple7/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple7/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple7/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple7/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple7/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple7/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple7/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple7/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple7/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple7/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple7/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple7/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple7/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple7/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple7/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple7/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple7/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple7/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple7/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple7/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple8/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple8/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple8/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple8/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple8/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple8/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple8/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple8/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple8/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple8/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple8/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple8/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple8/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple8/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple8/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple8/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple8/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple8/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple8/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple8/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple8/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple8/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple8/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple8/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple9/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple9/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple9/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple9/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple9/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple9/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple9/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple9/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple9/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple9/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple9/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple9/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple9/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple9/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple9/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple9/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple9/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple9/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple9/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple9/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple9/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple9/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple9/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple9/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple10/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple10/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple10/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple10/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple10/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple10/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple10/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple10/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple10/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple10/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple10/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple10/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple10/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple10/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple10/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple10/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple10/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple10/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple10/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple10/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple10/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple10/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple10/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple10/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple11/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple11/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple11/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple11/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple11/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple11/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple11/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple11/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple11/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple11/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple11/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple11/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple11/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple11/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple11/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple11/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple11/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple11/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple11/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple11/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple11/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple11/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple11/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/apple/apple11/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal16_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal1/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal1/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal1/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal1/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal1/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal1/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal1/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal1/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal1/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal1/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal1/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal1/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal1/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal1/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal1/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal1/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal1/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal1/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal1/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal1/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal1/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal1/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal1/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal1/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal4/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal4/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal4/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal4/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal4/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal4/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal4/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal4/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal4/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal4/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal4/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal4/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal4/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal4/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal4/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal4/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal4/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal4/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal4/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal4/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal4/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal4/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal4/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal4/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal5/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal5/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal5/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal5/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal5/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal5/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal5/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal5/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal5/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal5/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal5/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal5/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal5/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal5/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal5/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal5/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal5/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal5/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal5/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal5/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal5/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal5/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal5/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal5/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal7/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal7/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal7/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal7/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal7/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal7/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal7/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal7/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal7/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal7/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal7/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal7/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal7/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal7/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal7/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal7/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal7/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal7/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal7/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal7/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal7/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal7/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal7/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal7/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal9/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal9/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal9/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal9/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal9/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal9/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal9/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal9/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal9/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal9/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal9/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal9/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal9/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal9/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal9/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal9/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal9/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal9/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal9/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal9/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal9/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal9/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal9/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal9/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal12/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal12/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal12/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal12/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal12/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal12/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal12/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal12/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal12/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal12/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal12/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal12/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal12/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal12/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal12/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal12/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal12/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal12/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal12/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal12/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal12/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal12/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal12/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal12/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal13/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal13/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal13/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal13/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal13/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal13/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal13/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal13/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal13/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal13/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal13/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal13/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal13/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal13/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal13/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal13/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal13/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal13/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal13/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal13/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal13/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal13/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal13/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal13/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal2/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal2/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal2/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal2/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal2/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal2/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal2/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal2/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal2/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal2/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal2/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal2/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal2/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal2/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal2/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal2/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal2/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal2/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal2/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal2/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal2/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal2/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal2/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal2/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal8/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal8/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal8/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal8/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal8/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal8/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal8/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal8/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal8/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal8/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal8/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal8/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal8/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal8/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal8/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal8/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal8/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal8/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal8/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal8/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal8/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal8/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal8/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal8/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal14/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal14/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal14/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal14/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal14/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal14/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal14/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal14/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal14/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal14/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal14/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal14/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal14/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal14/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal14/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal14/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal14/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal14/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal14/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal14/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal14/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal14/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal14/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal14/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal16/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal16/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal16/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal16/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal16/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal16/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal16/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal16/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal16/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal16/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal16/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal16/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal16/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal16/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal16/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal16/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal16/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal16/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal16/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal16/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal16/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal16/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal16/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal16/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal3/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal3/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal3/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal3/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal3/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal3/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal3/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal3/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal3/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal3/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal3/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal3/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal3/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal3/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal3/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal3/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal3/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal3/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal3/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal3/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal3/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal3/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal3/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal3/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal6/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal6/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal6/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal6/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal6/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal6/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal6/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal6/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal6/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal6/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal6/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal6/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal6/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal6/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal6/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal6/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal6/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal6/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal6/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal6/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal6/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal6/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal6/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal6/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal10/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal10/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal10/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal10/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal10/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal10/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal10/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal10/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal10/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal10/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal10/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal10/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal10/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal10/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal10/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal10/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal10/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal10/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal10/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal10/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal10/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal10/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal10/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal10/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal15/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal15/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal15/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal15/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal15/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal15/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal15/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal15/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal15/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal15/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal15/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal15/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal15/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal15/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal15/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal15/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal15/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal15/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal15/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal15/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal15/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal15/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal15/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal15/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal11/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal11/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal11/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal11/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal11/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal11/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal11/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal11/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal11/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal11/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal11/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal11/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal11/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal11/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal11/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal11/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal11/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal11/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal11/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal11/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal11/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal11/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal11/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/oatmeal/oatmeal11/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea16_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea17_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea18_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea19_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea20_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea21_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea22_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea23_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea24_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea8/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea8/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea8/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea8/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea8/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea8/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea8/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea8/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea8/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea8/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea8/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea8/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea8/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea8/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea8/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea8/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea8/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea8/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea8/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea8/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea8/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea8/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea8/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea8/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea9/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea9/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea9/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea9/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea9/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea9/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea9/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea9/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea9/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea9/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea9/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea9/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea9/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea9/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea9/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea9/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea9/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea9/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea9/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea9/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea9/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea9/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea9/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea9/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea10/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea10/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea10/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea10/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea10/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea10/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea10/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea10/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea10/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea10/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea10/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea10/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea10/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea10/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea10/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea10/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea10/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea10/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea10/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea10/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea10/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea10/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea10/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea10/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea11/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea11/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea11/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea11/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea11/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea11/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea11/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea11/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea11/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea11/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea11/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea11/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea11/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea11/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea11/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea11/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea11/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea11/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea11/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea11/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea11/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea11/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea11/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea11/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea13/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea13/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea13/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea13/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea13/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea13/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea13/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea13/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea13/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea13/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea13/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea13/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea13/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea13/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea13/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea13/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea13/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea13/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea13/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea13/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea13/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea13/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea13/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea13/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea14/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea14/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea14/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea14/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea14/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea14/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea14/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea14/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea14/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea14/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea14/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea14/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea14/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea14/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea14/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea14/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea14/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea14/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea14/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea14/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea14/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea14/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea14/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea14/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea16/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea16/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea16/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea16/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea16/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea16/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea16/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea16/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea16/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea16/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea16/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea16/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea16/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea16/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea16/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea16/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea16/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea16/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea16/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea16/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea16/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea16/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea16/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea16/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea17/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea17/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea17/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea17/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea17/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea17/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea17/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea17/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea17/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea17/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea17/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea17/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea17/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea17/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea17/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea17/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea17/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea17/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea17/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea17/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea17/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea17/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea17/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea17/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea19/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea19/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea19/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea19/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea19/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea19/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea19/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea19/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea19/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea19/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea19/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea19/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea19/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea19/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea19/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea19/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea19/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea19/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea19/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea19/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea19/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea19/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea19/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea19/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea20/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea20/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea20/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea20/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea20/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea20/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea20/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea20/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea20/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea20/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea20/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea20/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea20/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea20/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea20/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea20/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea20/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea20/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea20/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea20/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea20/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea20/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea20/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea20/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea22/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea22/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea22/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea22/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea22/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea22/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea22/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea22/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea22/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea22/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea22/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea22/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea22/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea22/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea22/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea22/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea22/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea22/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea22/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea22/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea22/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea22/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea22/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea22/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea23/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea23/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea23/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea23/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea23/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea23/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea23/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea23/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea23/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea23/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea23/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea23/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea23/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea23/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea23/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea23/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea23/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea23/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea23/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea23/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea23/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea23/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea23/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea23/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea1/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea1/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea1/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea1/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea1/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea1/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea1/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea1/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea1/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea1/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea1/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea1/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea1/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea1/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea1/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea1/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea1/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea1/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea1/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea1/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea1/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea1/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea1/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea1/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea2/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea2/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea2/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea2/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea2/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea2/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea2/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea2/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea2/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea2/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea2/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea2/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea2/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea2/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea2/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea2/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea2/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea2/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea2/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea2/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea2/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea2/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea2/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea2/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea4/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea4/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea4/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea4/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea4/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea4/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea4/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea4/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea4/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea4/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea4/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea4/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea4/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea4/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea4/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea4/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea4/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea4/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea4/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea4/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea4/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea4/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea4/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea4/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea5/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea5/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea5/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea5/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea5/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea5/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea5/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea5/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea5/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea5/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea5/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea5/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea5/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea5/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea5/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea5/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea5/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea5/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea5/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea5/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea5/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea5/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea5/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea5/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea7/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea7/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea7/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea7/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea7/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea7/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea7/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea7/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea7/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea7/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea7/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea7/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea7/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea7/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea7/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea7/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea7/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea7/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea7/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea7/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea7/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea7/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea7/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea7/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea12/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea12/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea12/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea12/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea12/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea12/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea12/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea12/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea12/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea12/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea12/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea12/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea12/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea12/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea12/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea12/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea12/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea12/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea12/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea12/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea12/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea12/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea12/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea12/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea15/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea15/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea15/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea15/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea15/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea15/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea15/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea15/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea15/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea15/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea15/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea15/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea15/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea15/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea15/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea15/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea15/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea15/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea15/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea15/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea15/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea15/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea15/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea15/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea18/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea18/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea18/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea18/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea18/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea18/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea18/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea18/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea18/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea18/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea18/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea18/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea18/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea18/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea18/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea18/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea18/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea18/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea18/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea18/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea18/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea18/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea18/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea18/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea21/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea21/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea21/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea21/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea21/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea21/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea21/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea21/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea21/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea21/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea21/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea21/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea21/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea21/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea21/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea21/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea21/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea21/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea21/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea21/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea21/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea21/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea21/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea21/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea24/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea24/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea24/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea24/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea24/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea24/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea24/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea24/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea24/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea24/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea24/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea24/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea24/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea24/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea24/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea24/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea24/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea24/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea24/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea24/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea24/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea24/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea24/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea24/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea3/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea3/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea3/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea3/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea3/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea3/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea3/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea3/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea3/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea3/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea3/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea3/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea3/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea3/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea3/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea3/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea3/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea3/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea3/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea3/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea3/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea3/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea3/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea3/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea6/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea6/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea6/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea6/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea6/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea6/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea6/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea6/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea6/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea6/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea6/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea6/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea6/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea6/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea6/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea6/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea6/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea6/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea6/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea6/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea6/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea6/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea6/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/fruit tea/fruit tea6/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon16_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon18_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon19_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon21_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon17_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon20_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon8/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon8/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon8/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon8/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon8/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon8/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon8/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon8/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon8/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon8/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon8/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon8/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon8/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon8/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon8/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon8/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon8/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon8/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon8/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon8/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon8/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon8/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon8/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon8/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon11/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon11/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon11/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon11/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon11/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon11/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon11/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon11/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon11/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon11/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon11/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon11/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon11/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon11/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon11/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon11/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon11/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon11/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon11/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon11/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon11/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon11/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon11/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon11/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon14/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon14/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon14/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon14/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon14/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon14/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon14/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon14/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon14/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon14/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon14/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon14/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon14/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon14/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon14/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon14/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon14/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon14/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon14/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon14/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon14/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon14/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon14/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon14/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon16/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon16/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon16/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon16/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon16/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon16/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon16/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon16/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon16/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon16/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon16/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon16/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon16/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon16/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon16/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon16/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon16/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon16/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon16/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon16/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon16/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon16/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon16/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon16/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon21/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon21/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon21/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon21/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon21/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon21/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon21/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon21/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon21/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon21/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon21/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon21/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon21/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon21/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon21/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon21/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon21/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon21/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon21/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon21/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon21/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon21/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon21/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon21/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon6/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon6/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon6/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon6/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon6/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon6/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon6/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon6/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon6/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon6/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon6/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon6/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon6/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon6/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon6/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon6/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon6/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon6/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon6/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon6/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon6/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon6/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon6/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon6/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon17/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon17/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon17/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon17/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon17/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon17/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon17/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon17/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon17/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon17/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon17/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon17/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon17/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon17/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon17/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon17/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon17/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon17/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon17/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon17/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon17/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon17/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon17/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon17/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon1/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon1/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon1/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon1/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon1/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon1/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon1/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon1/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon1/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon1/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon1/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon1/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon1/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon1/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon1/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon1/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon1/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon1/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon1/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon1/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon1/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon1/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon1/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon1/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon3/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon3/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon3/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon3/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon3/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon3/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon3/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon3/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon3/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon3/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon3/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon3/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon3/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon3/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon3/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon3/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon3/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon3/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon3/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon3/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon3/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon3/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon3/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon3/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon5/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon5/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon5/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon5/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon5/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon5/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon5/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon5/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon5/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon5/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon5/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon5/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon5/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon5/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon5/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon5/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon5/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon5/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon5/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon5/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon5/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon5/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon5/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon5/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon7/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon7/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon7/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon7/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon7/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon7/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon7/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon7/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon7/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon7/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon7/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon7/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon7/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon7/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon7/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon7/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon7/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon7/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon7/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon7/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon7/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon7/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon7/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon7/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon10/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon10/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon10/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon10/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon10/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon10/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon10/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon10/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon10/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon10/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon10/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon10/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon10/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon10/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon10/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon10/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon10/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon10/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon10/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon10/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon10/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon10/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon10/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon10/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon12/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon12/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon12/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon12/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon12/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon12/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon12/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon12/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon12/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon12/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon12/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon12/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon12/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon12/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon12/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon12/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon12/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon12/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon12/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon12/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon12/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon12/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon12/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon12/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon15/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon15/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon15/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon15/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon15/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon15/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon15/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon15/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon15/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon15/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon15/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon15/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon15/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon15/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon15/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon15/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon15/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon15/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon15/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon15/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon15/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon15/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon15/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon15/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon18/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon18/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon18/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon18/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon18/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon18/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon18/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon18/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon18/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon18/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon18/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon18/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon18/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon18/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon18/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon18/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon18/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon18/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon18/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon18/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon18/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon18/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon18/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon18/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon2/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon2/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon2/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon2/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon2/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon2/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon2/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon2/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon2/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon2/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon2/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon2/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon2/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon2/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon2/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon2/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon2/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon2/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon2/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon2/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon2/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon2/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon2/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon2/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon9/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon9/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon9/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon9/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon9/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon9/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon9/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon9/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon9/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon9/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon9/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon9/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon9/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon9/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon9/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon9/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon9/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon9/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon9/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon9/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon9/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon9/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon9/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon9/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon20/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon20/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon20/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon20/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon20/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon20/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon20/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon20/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon20/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon20/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon20/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon20/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon20/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon20/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon20/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon20/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon20/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon20/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon20/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon20/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon20/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon20/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon20/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon20/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon19/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon19/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon19/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon19/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon19/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon19/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon19/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon19/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon19/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon19/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon19/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon19/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon19/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon19/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon19/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon19/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon19/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon19/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon19/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon19/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon19/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon19/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon19/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon19/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon4/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon4/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon4/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon4/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon4/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon4/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon4/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon4/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon4/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon4/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon4/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon4/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon4/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon4/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon4/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon4/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon4/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon4/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon4/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon4/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon4/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon4/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon4/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon4/top/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon13/sides/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon13/sides/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon13/sides/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon13/sides/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon13/sides/4_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon13/sides/5_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon13/sides/6_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon13/sides/7_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon13/sides/8_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon13/sides/9_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon13/sides/10_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon13/sides/11_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon13/sides/12_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon13/sides/13_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon13/sides/14_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon13/sides/15_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon13/bottom/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon13/bottom/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon13/bottom/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon13/bottom/3_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon13/top/0_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon13/top/1_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon13/top/2_no_background.png
+saved: ../huggingface/ai_shelf/sd/10classes_without_background/lemon/lemon13/top/3_no_background.png
