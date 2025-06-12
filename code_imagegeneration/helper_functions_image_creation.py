@@ -203,7 +203,6 @@ def delete_boarders(grid_indices, occupancy_grid, boarder_x, boarder_y):
 def add_object_padding(occupancy_grid_object, grid_indices, objects_positions, curr_object_grid_size):
     ## TODO !!!! needs rework! 
     num_cells_x, num_cells_y = occupancy_grid_object.shape
-    print("shape:", num_cells_x, num_cells_y )
     to_remove = set()
 
     def check_pos_and_add(x_pos, y_pos):
