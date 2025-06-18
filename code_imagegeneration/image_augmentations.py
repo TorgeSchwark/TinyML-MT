@@ -20,6 +20,31 @@ def apply_contrast(image, factor_range=(0.7, 1.3)):
     factor = random.uniform(*factor_range)
     return enhancer.enhance(factor)
 
+def apply_color_shift(image, shift_range):
+    """
+    Verschiebt RGB-Kanäle getrennt nach shift_range:
+    shift_range = {"r": (-30, 30), "g": (-10, 10), "b": (-5, 20)}
+    """
+
+    print(shift_range)
+    
+    img_np = np.array(image).astype(np.int16)  # vermeidet Überlauf
+    r_shift = np.random.randint(*shift_range["r"])
+    g_shift = np.random.randint(*shift_range["g"])
+    b_shift = np.random.randint(*shift_range["b"])
+
+    img_np[..., 0] = np.clip(img_np[..., 0] + r_shift, 0, 255)
+    img_np[..., 1] = np.clip(img_np[..., 1] + g_shift, 0, 255)
+    img_np[..., 2] = np.clip(img_np[..., 2] + b_shift, 0, 255)
+
+    return Image.fromarray(img_np.astype(np.uint8))
+
+
+def apply_blur(image, radius_range=(1, 3)):
+    """Wendet Gaußsches Weichzeichnen mit zufälligem Radius an."""
+    radius = random.uniform(*radius_range)
+    return image.filter(ImageFilter.GaussianBlur(radius))
+
 def apply_rotation(image, angle_range=(-180, 180)):
     """
     Apply random rotation to an image.

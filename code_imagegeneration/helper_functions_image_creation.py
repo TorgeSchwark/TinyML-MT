@@ -18,19 +18,45 @@ from datetime import datetime
 
 from image_augmentations import *
 
-def augment_object(image, brightness_prob=0.8, brightness_range=(0.3, 1.7), contrast_prob=0.8, contrast_range=(0.3, 1.7), rotation_prob=1, rotation_range=(-90, 90),
-                    noise_prob=0.3, noise_std=15, shadow_prob=0.5, shadow_alpha_range=(30, 80), shadow_blur_radius=5):
-    #TODO: add color shift (color jitter?)
-    
-    if random.random() < brightness_prob: image = apply_brightness(image, brightness_range)
+from PIL import ImageOps
 
-    if random.random() < contrast_prob: image = apply_contrast(image, contrast_range)
+def augment_object(image,
+                   brightness_prob=0.8, brightness_range=(0.5, 1.7),
+                   contrast_prob=0.8, contrast_range=(0.5, 1.7),
+                   rotation_prob=1, rotation_range=(-180, 180),
+                   noise_prob=0.3, noise_std=15,
+                   shadow_prob=0.5, shadow_alpha_range=(30, 80), shadow_blur_radius=5,
+                   blur_prob=0.7, blur_radius_range=(1, 2),
+                   color_shift_prob=0.7, color_shift_range = {"r": (-1, 1), "g": (-1, 1), "b": (-1, 1)},
+                   mirror_y_prob=0.5):
 
-    if random.random() < rotation_prob: image = apply_rotation(image, rotation_range)
+    if random.random() < brightness_prob:
+        image = apply_brightness(image, brightness_range)
 
-    if random.random() < noise_prob: image = apply_noise(image, noise_std)
+    if random.random() < contrast_prob:
+        image = apply_contrast(image, contrast_range)
 
-    # if random.random() < shadow_prob: image = apply_shadow(image, shadow_alpha_range, shadow_blur_radius)
+    if random.random() < rotation_prob:
+        image = apply_rotation(image, rotation_range)
+
+    # ⬇️ 50 % Wahrscheinlichkeit für Spiegelung an der Y-Achse
+    if random.random() < mirror_y_prob:
+        image = ImageOps.mirror(image)
+
+    if random.random() < color_shift_prob:
+        image = apply_color_shift(image, color_shift_range)
+
+    if random.random() < noise_prob:
+        image = apply_noise(image, noise_std)
+
+    if random.random() < blur_prob:
+        image = apply_blur(image, blur_radius_range)
+
+    return image
+
+
+    # if random.random() < shadow_prob:
+    #     image = apply_shadow(image, shadow_alpha_range, shadow_blur_radius)
 
     return image
 
@@ -39,6 +65,7 @@ def augment_background(image, brightness_prob=0.9, brightness_range=(0.3, 1.7),
                        contrast_prob=0.9, contrast_range=(0.3, 1.7), 
                        rotation_prob=0.7, rotation_range=(-90, 90), 
                        noise_prob=0.8, noise_std=10, 
+                        blur_prob=0.7, blur_radius_range=(1, 2),
                        shadow_prob=0.7, shadow_alpha_range=(50, 100), shadow_blur_radius=7, 
                        zoom_prob=0.6, zoom_range=(0.8, 1.2)):
 
@@ -53,6 +80,13 @@ def augment_background(image, brightness_prob=0.9, brightness_range=(0.3, 1.7),
 
     if random.random() < noise_prob: 
         image = apply_noise(image, noise_std)
+
+    if random.random() < blur_prob:
+        image = apply_blur(image, blur_radius_range)
+
+
+    # if random.random() < shadow_prob:
+    #     image = apply_shadow(image, shadow_alpha_range, shadow_blur_radius)
 
     return image
 
@@ -267,7 +301,9 @@ def equals(occupancy_grid, grid_index_object):
 
 def place_objects_on_background(background_image, object_images, object_counts, category_to_id, image_resolution=(500, 500), show = False):
     # Determines the size one object can take more or less fixed since we always have same camera distance
-    max_object_amount = 16 + random.randint(-6,6)
+
+    #now higher size variance
+    max_object_amount = 12 + random.randint(-10,15)
 
     cell_size = 5
     max_shadow_offset = 10
@@ -303,10 +339,13 @@ def place_objects_on_background(background_image, object_images, object_counts, 
     for object_image, category in object_images:
 
         custom_scale = object_image.info.get("custom_scale", 1.0)
+        if custom_scale != 1:
+            print(custom_scale)
+        custom_color_augmentation = object_image.info.get("color_shift", (0,0,0))
 
         # Save original size for YOLO before applying shadow
         scaled_obj = scale_object(object_image, area_per_image, custom_scale)
-        scaled_obj = augment_object(scaled_obj)
+        scaled_obj = augment_object(scaled_obj, color_shift_range=custom_color_augmentation)
         scaled_w, scaled_h = scaled_obj.size
 
 

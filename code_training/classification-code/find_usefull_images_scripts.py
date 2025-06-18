@@ -42,10 +42,7 @@ def get_mvtec_with_classes(class_list, image_path, annotation_path, map_ids=None
 
 # To test on a NN that was trained on first_artificial_dataset!
 def get_mvtec_images_for_first_artificial_dataset_classes():
-    map_ids = {
-        25: 0, 26: 0, 27: 0, 28: 1, 50: 4, 51: 3,
-        30: 2, 44: 4, 45: 4, 46: 4, 47: 4, 48: 4, 49: 4
-    }
+    map_ids = {25: 0, 26: 0, 27: 0, 28: 1, 50: 4, 51: 3, 30: 2, 44: 4, 45: 4, 46: 4, 47: 4, 48: 4, 49: 4}
 
     class_list = [25, 26, 27, 28, 50, 51, 30, 44, 45, 46, 47, 48, 49]
 
@@ -132,7 +129,7 @@ def filter_dataset_return_lists(
 
 
 def get_custom_small_class_dataset():
-    useful_classes_small = [1, 2, 3, 4, 48, 26]
+    useful_classes_small = [1, 2, 3, 4, 5, 48, 26]
     path_input = "../../Dataset/local_dataset_all"
     
     image_paths, label_data = filter_dataset_return_lists(
@@ -141,3 +138,15 @@ def get_custom_small_class_dataset():
     )
     
     return image_paths, label_data
+
+def get_custom_10class_class_dataset():
+    useful_classes_small = [1, 2, 3, 4, 5, 48, 26, 13, 9]
+    path_input = "../../Dataset/local_dataset_all"
+    
+    image_paths, label_data = filter_dataset_return_lists(
+        useful_classes=useful_classes_small,
+        path_input=path_input
+    )
+    
+    return image_paths, label_data
+
