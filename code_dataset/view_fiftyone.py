@@ -9,7 +9,7 @@ dataset_dir = "huggingface/mvtec_yolo"
 dataset = fo.Dataset.from_dir(
     dataset_dir=dataset_dir,
     dataset_type=fo.types.YOLOv5Dataset,
-    split="train",  # or "val", "test" — required for YOLOv5
+    split="val",  # or "val", "test" — required for YOLOv5
 )
 
 # Launch the app
