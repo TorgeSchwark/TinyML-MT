@@ -48,8 +48,8 @@ def get_mvtec_images_for_first_artificial_dataset_classes():
 
     image_paths, label_lines = get_mvtec_with_classes(
         class_list=class_list,
-        image_path="../../huggingface/mvtec_annotated/images",
-        annotation_path="../../huggingface/mvtec_annotated/labels",
+        image_path="../../huggingface/mvtec_mapped/mvtec_annotated/images",
+        annotation_path="../../huggingface/mvtec_mapped/mvtec_annotated/labels",
         map_ids=map_ids
     )
     return image_paths, label_lines
@@ -62,8 +62,8 @@ def get_mvtec_images_for_first_artificial_dataset_classes_trained_on_10_clases()
     # there is no lemen oat meal or tomato souce in mvtec
     image_paths, label_lines = get_mvtec_with_classes(
         class_list=class_list,
-        image_path="../../huggingface/mvtec_annotated/images",
-        annotation_path="../../huggingface/mvtec_annotated/labels",
+        image_path="../../huggingface/mvtec_mapped/mvtec_annotated/images",
+        annotation_path="../../huggingface/mvtec_mapped/mvtec_annotated/labels",
         map_ids=map_ids
     )
     return image_paths, label_lines
@@ -76,8 +76,8 @@ def get_mvtec_images_for_10classes_dataset():
     # there is no lemen oat meal or tomato souce in mvtec
     image_paths, label_lines = get_mvtec_with_classes(
         class_list=class_list,
-        image_path="../../huggingface/mvtec_annotated/images",
-        annotation_path="../../huggingface/mvtec_annotated/labels",
+        image_path="../../huggingface/mvtec_mapped/mvtec_annotated/images",
+        annotation_path="../../huggingface/mvtec_mapped/mvtec_annotated/labels",
         map_ids=map_ids
     )
     return image_paths, label_lines
@@ -130,7 +130,7 @@ def filter_dataset_return_lists(
 
 def get_custom_small_class_dataset():
     useful_classes_small = [1, 2, 3, 4, 5, 48, 26]
-    path_input = "../../Dataset/local_dataset_all"
+    path_input = "../../huggingface/custom"
     
     image_paths, label_data = filter_dataset_return_lists(
         useful_classes=useful_classes_small,
@@ -141,7 +141,8 @@ def get_custom_small_class_dataset():
 
 def get_custom_10class_class_dataset():
     useful_classes_small = [1, 2, 3, 4, 5, 48, 26, 13, 9]
-    path_input = "../../Dataset/local_dataset_all"
+    print("Current working directory:", os.getcwd())
+    path_input = "../../huggingface/custom"
     
     image_paths, label_data = filter_dataset_return_lists(
         useful_classes=useful_classes_small,

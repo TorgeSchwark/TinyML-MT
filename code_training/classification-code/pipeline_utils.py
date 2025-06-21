@@ -5,8 +5,8 @@ import wandb
 import os
 import numpy as np
 import seaborn as sns
-
-def log_class_metrics_heatmap(val_results, null_classes=[], wandb_key="class_metrics_heatmap"):
+## -------- Evaluation --------
+def log_class_metrics_heatmap(val_results, null_classes=[], wandb_key="val/class_metrics_heatmap"):
     """
     Erstellt eine Heatmap aus den Klassenspezifischen Metriken (Precision, Recall, F1, AP@0.5)
     aus den val_results eines YOLOv8-Modells und loggt sie zu Weights & Biases.
@@ -101,7 +101,7 @@ def mvtec_grids(model):
         # Vorhersagen durchführen (Batch)
         preds = model.predict(
             selected_paths,
-            imgsz=model.args.imgsz,
+            imgsz=model.args["imgsz"],
             save=False,
             stream=False
         )
@@ -165,24 +165,24 @@ def mvtec_grids(model):
         wandb.log({f"mvtec/grids/prediction_grid{grid_idx+1}": wandb.Image(grid_img_path)})
 
 
-def mvtec_metrics(model):
-    path = "../../huggingface/full_classes_trained_on_10classes/dataset.yaml"
+def mvtec_metrics(model, path, big):
     # null_classes for big 
-    null_clases = ["lemon", "oatmeal", "tomato sauce"]
+    null_classes = ["lemon", "oatmeal", "tomato sauce"]
     # for small dataset 
-    # null_clases = ["coffee", "lemon", "oatmeal", "pasta", "tomato sauce"]
-
+    if not big:
+        null_classes = ["coffee", "lemon", "oatmeal", "pasta", "tomato sauce"]
 
     absolute_path = os.path.abspath(path)
     # Evaluation auf dem 'test' Teil des Datasets
     metrics = model.val(
         data=absolute_path,  
         split='test',              
-        imgsz=model.args.imgsz               
+        imgsz=model.args["imgsz"],
+        augment=True              
     )
 
-    print(np.mean(metrics.box.p),np.mean(metrics.box.r), np.mean(metrics.box.f1))
-    log_class_metrics_heatmap(metrics, null_classes= null_clases, wandb_key="mvtec/heatmap")
+    print(np.mean(metrics.box.p), np.mean(metrics.box.r), np.mean(metrics.box.f1))
+    log_class_metrics_heatmap(metrics, null_classes=null_classes, wandb_key="mvtec/heatmap")
     wandb.log({
         "mvtec/mAP50_class_normal": float(metrics.box.map50),
         "mvtec/precision_class_normal": float(np.mean(metrics.box.p)),
@@ -207,7 +207,7 @@ def custom_grids(model):
         # Vorhersagen durchführen (Batch)
         preds = model.predict(
             selected_paths,
-            imgsz=model.args.imgsz,
+            imgsz=model.args["imgsz"],
             save=False,
             stream=False
         )
@@ -270,7 +270,7 @@ def custom_grids(model):
         plt.close(fig)
 
         # Bild bei wandb loggen
-        wandb.log({f"/custom/grids/prediction_grid_{grid_idx+1}": wandb.Image(grid_img_path)})
+        wandb.log({f"custom/grids/prediction_grid_{grid_idx+1}": wandb.Image(grid_img_path)})
 
 
 def custom_metrics(model):
@@ -318,6 +318,7 @@ def custom_metrics(model):
             # Skip class if both gt and pred are zero
             if cls == 3:
                 print("avocado", tp, fp, fn)
+                pass
             if (tp + fp + fn) == 0:
                 continue
 
@@ -397,7 +398,7 @@ def custom_metrics(model):
         all_gt_counts.extend(batch_labels)
 
         # Model Predictions holen
-        preds_raw = model.predict(batch_paths, imgsz=model.args.imgsz, stream=False)
+        preds_raw = model.predict(batch_paths, imgsz=model.args["imgsz"], stream=False)
 
         for i, pred in enumerate(preds_raw):
             pred_classes = pred.boxes.cls.cpu().tolist()
