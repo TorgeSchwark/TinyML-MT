@@ -7,6 +7,7 @@ import traceback
 import wandb
 from ultralytics import YOLO
 from pipeline_utils import log_class_metrics_heatmap, custom_grids, custom_metrics, mvtec_grids, mvtec_metrics
+import find_usefull_images_scripts as im_script
 
 
 def setup_environment(gpu: str, hf_cache: str = "../../.cache"):
@@ -44,7 +45,8 @@ def parse_args():
     return parser.parse_args()
 
 MVTEC_ANNOTATED = "../../huggingface/mvtec_mapped/full_classes_trained_on_10classes/dataset.yaml"
-MVTEC_BIG = True
+MVTEC_FUNCTION = im_script.get_mvtec_images_for_10classes_dataset
+BIG = True
 VAL_EVERY_EPOCH = True # Set save_period to 1 then
 
 ## -------- Callbacks --------
@@ -54,8 +56,8 @@ def val_after_epoch_callback(trainer):
     print(ckpt_path)
     if os.path.exists(ckpt_path):
         model = YOLO(ckpt_path)
-        custom_metrics(model)
-        mvtec_metrics(model, MVTEC_ANNOTATED, MVTEC_BIG)
+        custom_metrics(model, BIG)
+        mvtec_metrics(model, MVTEC_ANNOTATED, BIG)
     else:
         print(f"No validation possible! Checkpoint not found for epoch {epoch}")
 
@@ -68,7 +70,7 @@ def main():
     args.mvtec = args.mvtec.lower() == "true"
     args.pretrained = args.pretrained.lower() == "true"
     if args.custom:
-        print(f"\033[1;93mTesting on custom with the following Settings: Path: {MVTEC_ANNOTATED}, Big: {MVTEC_BIG}\033[0m")
+        print(f"\033[1;93mTesting on MVTec with the following Settings: Path: {MVTEC_ANNOTATED}, Big: {BIG}, Function: {MVTEC_FUNCTION.__name__}\033[0m")
     dataset_path = os.path.abspath(args.dataset_path)
     # Extract model size (letter before .pt in model filename)
     model_filename = os.path.basename(args.model)
@@ -131,6 +133,26 @@ def main():
         #mixup = 0.3, # das was Jannek meinte 
         #cutmix = 0.3,
         #copy_paste = 0.1, # weis ja nicht ...
+
+        # No Augmentations:
+        #hsv_h=0.0,
+        #hsv_s=0.0,
+        #hsv_v=0.0,
+        #degrees=0.0,
+        #translate=0.0,
+        #scale=1.0,           # set to 1.0 to avoid scaling
+        #shear=0.0,
+        #perspective=0.0,
+        #flipud=0.0,
+        #fliplr=0.0,
+        #bgr=0.0,
+        #mosaic=0.0,
+        #mixup=0.0,
+        #cutmix=0.0,
+        #copy_paste=0.0,
+        #copy_paste_mode="flip",  # has no effect when copy_paste=0.0
+        #auto_augment="",         # classification only
+        #erasing=0.0,
     )
         wandb.init(id=run.id, resume="allow", project="Yolo-Training")
         wandb.config.update(model.args) # Log all settings to WANDB
@@ -140,12 +162,12 @@ def main():
         model = YOLO(best_model_path)
 
         if args.custom:
-            custom_grids(model)
-            custom_metrics(model) # Also handles Heatmap
+            custom_grids(model, BIG)
+            custom_metrics(model, BIG) # Also handles Heatmap
         
         if args.mvtec:
-            mvtec_grids(model)
-            mvtec_metrics(model, MVTEC_ANNOTATED, MVTEC_BIG)
+            mvtec_grids(model, MVTEC_FUNCTION)
+            mvtec_metrics(model, MVTEC_ANNOTATED, BIG)
 
     except Exception as e:
         print(f"\033[1;91mAn error occurred: {e}\033[0m")

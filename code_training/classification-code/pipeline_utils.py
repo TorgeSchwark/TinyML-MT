@@ -88,8 +88,8 @@ def log_class_metrics_heatmap(val_results, null_classes=[], wandb_key="val/class
     plt.close(fig)
 
 
-def mvtec_grids(model):
-    image_paths, _ = im_script.get_mvtec_images_for_10classes_dataset()
+def mvtec_grids(model, mvtec_f):
+    image_paths, _ = mvtec_f()
     batch_size = 20
     num_grids = 10
 
@@ -178,7 +178,7 @@ def mvtec_metrics(model, path, big):
         data=absolute_path,  
         split='test',              
         imgsz=model.args["imgsz"],
-        augment=True              
+        #augment=True Augmentations during testing             
     )
 
     print(np.mean(metrics.box.p), np.mean(metrics.box.r), np.mean(metrics.box.f1))
@@ -192,9 +192,12 @@ def mvtec_metrics(model, path, big):
     })
 
 
-def custom_grids(model):
+def custom_grids(model, big):
     # Alle Beispielbilder laden
-    image_paths, _ = im_script.get_custom_10class_class_dataset()
+    if big:
+        image_paths, _ = im_script.get_custom_10class_class_dataset()
+    else:
+        image_paths, _ = im_script.get_custom_small_class_dataset()
 
     batch_size = 20
     num_grids = 10
@@ -273,16 +276,15 @@ def custom_grids(model):
         wandb.log({f"custom/grids/prediction_grid_{grid_idx+1}": wandb.Image(grid_img_path)})
 
 
-def custom_metrics(model):
+def custom_metrics(model, big):
     # # Mapping von Model-Output-Klasse → GT-Klasse
     label_translation_trained_on_10classes = {
         0: 1, 1: 3, 2: 4, 3: 13, 4: 48, 5: 26, 6: 2, 7:42, 8: 9, 9: 5
     }
-
-
-    # label_translation_trained_on_small_set = {
-    #     0: 1, 1: 3, 2: 4, 3: 48, 4: 26, 5: 2, 6: 5
-    # }
+    if not big:
+        label_translation_trained_on_10classes = {
+            0: 1, 1: 3, 2: 4, 3: 48, 4: 26, 5: 2, 6: 5
+        }
 
     def compute_classnorm_metrics(gt_dicts, pred_dicts):
         """
