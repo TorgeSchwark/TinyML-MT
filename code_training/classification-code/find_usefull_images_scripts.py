@@ -3,10 +3,13 @@ import os
 def get_mvtec_with_classes(class_list, image_path, annotation_path, map_ids=None):
     valid_image_paths = []
     valid_labels = []  # Liste von Listen: Jede innere Liste enthält Labelzeilen für ein Bild
+    annotation_path = os.path.abspath(annotation_path)
+    image_path = os.path.abspath(image_path)
 
     for subfolder in os.listdir(annotation_path):
         folder_path = os.path.join(annotation_path, subfolder)
-
+        if not os.path.isdir(folder_path):
+            continue
         for file in os.listdir(folder_path):
             file_path = os.path.join(folder_path, file)
 

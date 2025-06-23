@@ -8,6 +8,10 @@ import wandb
 from ultralytics import YOLO
 from pipeline_utils import log_class_metrics_heatmap, custom_grids, custom_metrics, mvtec_grids, mvtec_metrics
 import find_usefull_images_scripts as im_script
+from pathlib import Path
+
+# Get absolute path to the directory where the script is located
+BASE_DIR = Path(__file__).resolve().parent
 
 
 def setup_environment(gpu: str, hf_cache: str = "../../.cache"):
@@ -107,9 +111,9 @@ def main():
 
         if VAL_EVERY_EPOCH:
             model.add_callback("on_fit_epoch_end", val_after_epoch_callback)
-
+        print(os.getcwd())
         results = model.train(
-        data=args.dataset_path,
+        data=BASE_DIR / args.dataset_path,
         epochs=args.epochs,
         imgsz=args.imgsz,
         project="Yolo-Training",
