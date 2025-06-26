@@ -48,7 +48,7 @@ def parse_args():
 
     return parser.parse_args()
 
-MVTEC_ANNOTATED = "../../huggingface/mvtec_mapped/full_classes_trained_on_10classes/dataset.yaml"
+MVTEC_ANNOTATED = "../../huggingface/mvtec_mapped/full_classes_trained_on_10classes/dataset.yaml"#"../../huggingface/mvtec_mapped/full_classes_with_1_training_samples/dataset.yaml"
 MVTEC_FUNCTION = im_script.get_mvtec_images_for_10classes_dataset
 BIG = True
 VAL_EVERY_EPOCH = True # Set save_period to 1 then
@@ -111,7 +111,7 @@ def main():
 
         if VAL_EVERY_EPOCH:
             model.add_callback("on_fit_epoch_end", val_after_epoch_callback)
-        print(os.getcwd())
+
         results = model.train(
         data=BASE_DIR / args.dataset_path,
         epochs=args.epochs,
@@ -123,12 +123,16 @@ def main():
         save=True,
         save_period=1,
         mode="wandb",
-        batch=0.80, # 70% ? Check this
-        patience=10, # Early Stopping Patience
+        batch=0.90, # 70% ? Check this
+        #patience=10, # Early Stopping Patience
         pretrained=args.pretrained, #! Pretrained Model
         multi_scale=False, #! Test this
         cos_lr=False, #! Test this
         freeze=None, #! Test this
+        # For Finetuning:
+        #lr0=1e-4,             # base learning rate (Default: 1E-2)
+        #warmup_epochs=3,      # small warmup
+        #scale=1.0 # Very good
         #augment=True, # This is for applying augmentations to prediction sources
         #hsv_h=0.1,
         #degrees=180,
@@ -138,13 +142,13 @@ def main():
         #cutmix = 0.3,
         #copy_paste = 0.1, # weis ja nicht ...
 
-        # No Augmentations:
+        #! No Augmentations:
         #hsv_h=0.0,
         #hsv_s=0.0,
         #hsv_v=0.0,
         #degrees=0.0,
         #translate=0.0,
-        #scale=1.0,           # set to 1.0 to avoid scaling
+        #scale=0.0,           # set to 1.0 to avoid scaling
         #shear=0.0,
         #perspective=0.0,
         #flipud=0.0,
@@ -164,6 +168,10 @@ def main():
         # Load best model
         best_model_path = f"Yolo-Training/{run_name}/weights/best.pt"
         model = YOLO(best_model_path)
+        # Log the best model to W&B
+        #artifact = wandb.Artifact('best_checkpoint', type='model')
+        #artifact.add_file(best_model_path)
+        #run.log_artifact(artifact)
 
         if args.custom:
             custom_grids(model, BIG)

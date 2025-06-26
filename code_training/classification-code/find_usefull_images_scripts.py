@@ -75,7 +75,7 @@ def get_mvtec_images_for_first_artificial_dataset_classes_trained_on_10_clases()
 def get_mvtec_images_for_10classes_dataset():
     map_ids =  {25: 0, 26: 0, 27: 0, 28: 1, 50: 5, 51: 4, 30: 2, 44: 5, 45: 5, 46: 5, 47: 5, 48: 5, 49: 5, 21: 3, 22: 3, 20:3}
     class_list = [25, 26, 27, 28, 50, 51, 29, 30, 21, 20, 22, 23, 44, 45, 46, 47, 48, 49, 50]
-
+    # TODO: Why use mvtec_annotated here? Change to use a custom set 
     # there is no lemen oat meal or tomato souce in mvtec
     image_paths, label_lines = get_mvtec_with_classes(
         class_list=class_list,
