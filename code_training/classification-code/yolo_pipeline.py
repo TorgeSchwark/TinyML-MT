@@ -38,7 +38,7 @@ def parse_args():
 
     parser.add_argument("--gpu", type=str, default="1", help="CUDA_VISIBLE_DEVICES index")
     parser.add_argument("--epochs", type=int, default=100, help="Number of training epochs")
-    parser.add_argument("--imgsz", type=int, default=500, help="Input image size")
+    parser.add_argument("--imgsz", type=int, default=512, help="Input image size")
     parser.add_argument("--dataset_path", type=str, required=True, help="Path to data.yaml")
     parser.add_argument("--name", type=str, default="yolo", help="Base name for the run")
     parser.add_argument("--model", type=str, default="yolo11n.pt", help="YOLO model to use (path or name)")
@@ -51,7 +51,7 @@ def parse_args():
 MVTEC_ANNOTATED = "../../huggingface/mvtec_mapped/full_classes_trained_on_10classes/dataset.yaml"#"../../huggingface/mvtec_mapped/full_classes_with_1_training_samples/dataset.yaml"
 MVTEC_FUNCTION = im_script.get_mvtec_images_for_10classes_dataset
 BIG = True
-VAL_EVERY_EPOCH = True # Set save_period to 1 then
+VAL_EVERY_EPOCH = False # Set save_period to 1 then
 
 ## -------- Callbacks --------
 def val_after_epoch_callback(trainer):
@@ -124,14 +124,15 @@ def main():
         save_period=1,
         mode="wandb",
         batch=0.90, # 70% ? Check this
-        #patience=10, # Early Stopping Patience
+        patience=3, # Early Stopping Patience
         pretrained=args.pretrained, #! Pretrained Model
-        multi_scale=False, #! Test this
-        cos_lr=False, #! Test this
-        freeze=None, #! Test this
+        #multi_scale=True, #! Changes imgsz while training
+        #cos_lr=True, #! Test this
+        #freeze=12, #! Test this
         # For Finetuning:
         #lr0=1e-4,             # base learning rate (Default: 1E-2)
         #warmup_epochs=3,      # small warmup
+        
         #scale=1.0 # Very good
         #augment=True, # This is for applying augmentations to prediction sources
         #hsv_h=0.1,

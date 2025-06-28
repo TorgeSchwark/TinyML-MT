@@ -103,7 +103,8 @@ def mvtec_grids(model, mvtec_f):
             selected_paths,
             imgsz=model.args["imgsz"],
             save=False,
-            stream=False
+            stream=False,
+            verbose=False
         )
 
         # Bilder vorbereiten
@@ -212,7 +213,8 @@ def custom_grids(model, big):
             selected_paths,
             imgsz=model.args["imgsz"],
             save=False,
-            stream=False
+            stream=False,
+            verbose=False
         )
 
         # Bilder vorbereiten
@@ -226,7 +228,7 @@ def custom_grids(model, big):
                 x1, y1, x2, y2 = map(int, box)
 
                 class_name = model.names[int(cls)]
-                print("mapping" , class_name, cls)
+                #print("mapping" , class_name, cls)
                 label = f"{class_name} {conf:.2f}"
 
                 # Rechteck zeichnen
@@ -268,7 +270,13 @@ def custom_grids(model, big):
                 ax.axis('off')
 
         # Grid als Bild speichern
-        grid_img_path = f"prediction_grid_{grid_idx+1}.jpg"
+        # Extract model path and save grid image there
+        model_dir = os.path.dirname(getattr(model, 'weights', getattr(model, 'pt_path', '')))
+        print("Model directory:", model_dir)
+        if not model_dir:
+            print("ERRRORRRR")
+            model_dir = '.'  # fallback to current directory if path not found
+        grid_img_path = os.path.join(model_dir, f"prediction_grid_{grid_idx+1}.jpg")
         fig.savefig(grid_img_path, bbox_inches='tight', pad_inches=0)
         plt.close(fig)
 
@@ -277,6 +285,7 @@ def custom_grids(model, big):
 
 
 def custom_metrics(model, big):
+    print("Calculating Custom Metrics")
     # # Mapping von Model-Output-Klasse → GT-Klasse
     label_translation_trained_on_10classes = {
         0: 1, 1: 3, 2: 4, 3: 13, 4: 48, 5: 26, 6: 2, 7:42, 8: 9, 9: 5
@@ -292,7 +301,6 @@ def custom_metrics(model, big):
         wobei Klassen ohne Vorkommen ignoriert werden.
         """
         all_classes = sorted(set().union(*[d.keys() for d in gt_dicts + pred_dicts]))
-        
         classwise_precisions = []
         classwise_recalls = []
         classwise_f1s = []
@@ -400,7 +408,7 @@ def custom_metrics(model, big):
         all_gt_counts.extend(batch_labels)
 
         # Model Predictions holen
-        preds_raw = model.predict(batch_paths, imgsz=model.args["imgsz"], stream=False)
+        preds_raw = model.predict(batch_paths, imgsz=model.args["imgsz"], stream=False, verbose=False)
 
         for i, pred in enumerate(preds_raw):
             pred_classes = pred.boxes.cls.cpu().tolist()
@@ -430,7 +438,7 @@ def custom_metrics(model, big):
 
 
 def custom_heatmap(model, label_translation_trained_on_10classes, results):
-
+    print("Creating Custom Heatmap")
     # === Labels vorbereiten ===
     model_names = model.names  # z. B. {0: "apple", 1: "banana", ...}
     translation = label_translation_trained_on_10classes
@@ -442,9 +450,18 @@ def custom_heatmap(model, label_translation_trained_on_10classes, results):
 
     # === Werte aus results extrahieren ===
     class_ids = sorted(translated_class_labels.keys())  # Nur GT-Klassen, die in der Übersetzung vorkommen
-    prec_list = [results["classwise_precisions"][class_ids.index(c)] for c in class_ids]
-    recall_list = [results["classwise_recalls"][class_ids.index(c)] for c in class_ids]
-    f1_list = [results["classwise_f1s"][class_ids.index(c)] for c in class_ids]
+    prec_list = []
+    recall_list = []
+    f1_list = []
+    for idx, c in enumerate(class_ids):
+        if idx < len(results["classwise_precisions"]):
+            prec_list.append(results["classwise_precisions"][idx])
+            recall_list.append(results["classwise_recalls"][idx])
+            f1_list.append(results["classwise_f1s"][idx])
+        else:
+            prec_list.append(0.0)
+            recall_list.append(0.0)
+            f1_list.append(0.0)
 
     # === Heatmap zeichnen ===
     metric_matrix = np.array([prec_list, recall_list, f1_list])
