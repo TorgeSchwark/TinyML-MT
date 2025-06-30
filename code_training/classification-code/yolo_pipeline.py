@@ -123,17 +123,17 @@ def main():
         save=True,
         save_period=1,
         mode="wandb",
-        batch=0.90, # 70% ? Check this
-        patience=3, # Early Stopping Patience
+        batch=16, 
+        patience=5, # Early Stopping Patience
         pretrained=args.pretrained, #! Pretrained Model
-        #multi_scale=True, #! Changes imgsz while training
-        #cos_lr=True, #! Test this
-        #freeze=12, #! Test this
+        multi_scale=True, #! Changes imgsz while training
+        cos_lr=True, #! Test this
+        freeze=12, #! Test this
         # For Finetuning:
-        #lr0=1e-4,             # base learning rate (Default: 1E-2)
-        #warmup_epochs=3,      # small warmup
+        lr0=1e-4,             # base learning rate (Default: 1E-2)
+        warmup_epochs=3,      # small warmup
         
-        #scale=1.0 # Very good
+        scale=1.0 # Very good
         #augment=True, # This is for applying augmentations to prediction sources
         #hsv_h=0.1,
         #degrees=180,

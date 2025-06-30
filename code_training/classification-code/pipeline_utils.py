@@ -158,7 +158,10 @@ def mvtec_grids(model, mvtec_f):
                 ax.axis('off')
 
         # Grid als Bild speichern
-        grid_img_path = f"prediction_grid_{grid_idx+1}.jpg"
+        model_dir = os.path.dirname(getattr(model, 'weights', getattr(model, 'pt_path', '')))
+        if not model_dir:
+            model_dir = '.'  # fallback to current directory if path not found
+        grid_img_path = os.path.join(model_dir, f"prediction_grid_{grid_idx+1}.jpg")
         fig.savefig(grid_img_path, bbox_inches='tight', pad_inches=0)
         plt.close(fig)
 
@@ -272,9 +275,7 @@ def custom_grids(model, big):
         # Grid als Bild speichern
         # Extract model path and save grid image there
         model_dir = os.path.dirname(getattr(model, 'weights', getattr(model, 'pt_path', '')))
-        print("Model directory:", model_dir)
         if not model_dir:
-            print("ERRRORRRR")
             model_dir = '.'  # fallback to current directory if path not found
         grid_img_path = os.path.join(model_dir, f"prediction_grid_{grid_idx+1}.jpg")
         fig.savefig(grid_img_path, bbox_inches='tight', pad_inches=0)
