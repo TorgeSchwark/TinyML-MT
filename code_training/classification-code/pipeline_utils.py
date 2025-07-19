@@ -289,7 +289,7 @@ def custom_metrics(model, big):
     print("Calculating Custom Metrics")
     # # Mapping von Model-Output-Klasse → GT-Klasse
     label_translation_trained_on_10classes = {
-        0: 1, 1: 3, 2: 4, 3: 13, 4: 48, 5: 26, 6: 2, 7:42, 8: 9, 9: 5
+        0: 1, 1: 3, 2: 4, 3: 13, 4: 48, 5: 26, 6: 2, 7: 42, 8: 9, 9: 5
     }
     if not big:
         label_translation_trained_on_10classes = {
