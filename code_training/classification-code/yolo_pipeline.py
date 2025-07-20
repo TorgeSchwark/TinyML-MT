@@ -51,7 +51,7 @@ def parse_args():
 MVTEC_ANNOTATED = "../../huggingface/mvtec_mapped/full_classes_trained_on_10classes/dataset.yaml"#"../../huggingface/mvtec_mapped/full_classes_with_1_training_samples/dataset.yaml"
 MVTEC_FUNCTION = im_script.get_mvtec_images_for_10classes_dataset
 BIG = True
-VAL_EVERY_EPOCH = True # Set save_period to 1 then
+VAL_EVERY_EPOCH = False # Set save_period to 1 then
 
 ## -------- Callbacks --------
 def val_after_epoch_callback(trainer):
@@ -123,25 +123,28 @@ def main():
         save=True,
         save_period=1,
         mode="wandb",
-        batch=16, 
+        batch=32, 
         #patience=5, # Early Stopping Patience
         pretrained=args.pretrained, #! Pretrained Model
-        #multi_scale=True, #! Changes imgsz while training
-        #scale=1.0 #! Scale images themselves
+        multi_scale=True, #! Changes imgsz while training
+        scale=0.7, #! Scale images themselves
         cos_lr=True, #! Lr scheduler
         #freeze=12, #! Freeze x layers
         # For Finetuning:
-        lr0=1e-4,             # base learning rate (Default: 1E-2)
-        warmup_epochs=5,      # small warmup
+        #lr0=1e-4,             # base learning rate (Default: 1E-2)
+        #warmup_epochs=5,      # small warmup
         
         #augment=True, # This is for applying augmentations to prediction sources
-        #hsv_h=0.1,
-        #degrees=180,
-        #shear=10,
-        #perspective=0.0003,
-        #mixup = 0.3, # das was Jannek meinte 
-        #cutmix = 0.3,
-        #copy_paste = 0.1, # weis ja nicht ...
+        hsv_h=0.1,
+        degrees=180,
+        shear=10,
+        perspective=0.0003,
+        translate=0.3,
+        mixup = 0.3, # das was Jannek meinte 
+        cutmix = 0.3,
+        bgr=0.1,
+        flipud=0.0,
+
 
         #! No Augmentations:
         #hsv_h=0.0,
